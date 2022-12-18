@@ -1,5 +1,8 @@
-package com.akrem.bean_annotation;
+package com.bean_annotation;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class PartTimeMentor {
     public void createAccount(){
         System.out.println("Part Time Mentor is Created");

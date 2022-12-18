@@ -1,4 +1,4 @@
-package com.akrem.bean_annotation;
+package com.bean_annotation;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
@@ -11,6 +11,8 @@ public class App {
 
 
         FullTimeMentor bean = container.getBean(FullTimeMentor.class);
+        PartTimeMentor bean1 = container.getBean(PartTimeMentor.class);
+        bean1.createAccount();
         bean.createAccount();
 
 

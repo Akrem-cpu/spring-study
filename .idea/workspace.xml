@@ -5,8 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18f30876-6e01-438d-ad00-223757364b89" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/akrem/bean_annotation/ConfigApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/akrem/bean_annotation/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/akrem/bean_annotation/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/Stereotype/Agile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/Stereotype/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/Stereotype/ConfigCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/Stereotype/Java.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/Stereotype/Selenium.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/bean_annotation/ConfigApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-02-Core-Wiring/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/akrem/bean_annotation/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/bean_annotation/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/akrem/bean_annotation/ConfigAny.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/bean_annotation/ConfigAny.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/akrem/bean_annotation/ConfigApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/akrem/bean_annotation/FullTimeMentor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/bean_annotation/FullTimeMentor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/akrem/bean_annotation/PartTimeMentor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/bean_annotation/PartTimeMentor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/target/classes/com/akrem/bean_annotation/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/target/classes/com/akrem/bean_annotation/ConfigAny.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/target/classes/com/akrem/bean_annotation/ConfigApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/target/classes/com/akrem/bean_annotation/FullTimeMentor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/target/classes/com/akrem/bean_annotation/PartTimeMentor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/target/classes/com/test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +43,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2J3XK1Kg2QoIxDpMDLoqxs8KnvV" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -36,7 +57,20 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.App (1)">
+    <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Stereotype.App" />
+      <module name="Spring-01-Core-IoC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Stereotype.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.akrem.bean_annotation.App" />
       <module name="Spring-01-Core-IoC" />
@@ -52,6 +86,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App (1)" />
         <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
@@ -77,5 +112,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
