@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Spring-01-Core-IoC" />
+        <module name="Spring-02-Core-Wiring" />
       </profile>
     </annotationProcessing>
   </component>

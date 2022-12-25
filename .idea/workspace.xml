@@ -4,28 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18f30876-6e01-438d-ad00-223757364b89" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/Stereotype/Agile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/Stereotype/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/Stereotype/ConfigCourse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/Stereotype/Java.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/Stereotype/Selenium.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/bean_annotation/ConfigApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-02-Core-Wiring/pom.xml" afterDir="false" />
+    <list default="true" id="18f30876-6e01-438d-ad00-223757364b89" name="Changes" comment="Spring-core-wiring">
+      <change afterPath="$PROJECT_DIR$/Spring-02-Core-Wiring/src/main/java/wiring/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-02-Core-Wiring/src/main/java/wiring/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-02-Core-Wiring/src/main/java/wiring/ConfigCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-02-Core-Wiring/src/main/java/wiring/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/akrem/bean_annotation/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/bean_annotation/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/akrem/bean_annotation/ConfigAny.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/bean_annotation/ConfigAny.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/akrem/bean_annotation/ConfigApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/akrem/bean_annotation/FullTimeMentor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/bean_annotation/FullTimeMentor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/akrem/bean_annotation/PartTimeMentor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/bean_annotation/PartTimeMentor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/target/classes/com/akrem/bean_annotation/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/target/classes/com/akrem/bean_annotation/ConfigAny.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/target/classes/com/akrem/bean_annotation/ConfigApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/target/classes/com/akrem/bean_annotation/FullTimeMentor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/target/classes/com/akrem/bean_annotation/PartTimeMentor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/target/classes/com/test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-02-Core-Wiring/Spring-02-Core-Wiring.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,17 +40,31 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.App (1)">
+  <component name="RunManager" selected="Application.App (2)">
     <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Stereotype.App" />
       <module name="Spring-01-Core-IoC" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.Stereotype.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="wiring.App" />
+      <module name="Spring-02-Core-Wiring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="wiring.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,6 +87,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App (2)" />
         <item itemvalue="Application.App (1)" />
         <item itemvalue="Application.App" />
       </list>
@@ -100,6 +102,14 @@
       <option name="presentableId" value="Default" />
       <updated>1671307673563</updated>
     </task>
+    <task id="LOCAL-00001" summary="Spring-core-wiring">
+      <created>1671397409260</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1671397409260</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -113,5 +123,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Spring-core-wiring" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring-core-wiring" />
   </component>
 </project>
