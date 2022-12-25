@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18f30876-6e01-438d-ad00-223757364b89" name="Changes" comment="Spring-core-wiring">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-02-Core-Wiring/src/main/java/wiring/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-02-Core-Wiring/src/main/java/wiring/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-02-Core-Wiring/src/main/java/wiring/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-02-Core-Wiring/src/main/java/wiring/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-02-Core-Wiring/src/main/java/wiring/ConfigCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-02-Core-Wiring/src/main/java/wiring/ConfigCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-03-core-DI/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-03-core-DI/src/main/java/com/akrem/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-03-core-DI/src/main/java/com/akrem/ConfigApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-03-core-DI/src/main/java/com/akrem/Java.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-03-core-DI/src/main/java/com/akrem/OfficeHours.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-03-core-DI/src/main/java/com/akrem/Selenium.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +44,12 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.App (2)">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.akrem" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.App (3)">
     <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Stereotype.App" />
       <module name="Spring-01-Core-IoC" />
@@ -68,6 +76,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="App (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.akrem.App" />
+      <module name="Spring-03-core-DI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.akrem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.akrem.bean_annotation.App" />
       <module name="Spring-01-Core-IoC" />
@@ -83,6 +104,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App (3)" />
         <item itemvalue="Application.App (2)" />
         <item itemvalue="Application.App (1)" />
         <item itemvalue="Application.App" />
@@ -112,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671938435523</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Spring-core-wiring">
+      <created>1671991057148</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1671991057148</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -130,19 +159,5 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Spring-core-wiring" />
     <option name="LAST_COMMIT_MESSAGE" value="Spring-core-wiring" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/Spring-02-Core-Wiring/src/main/java/wiring/App.java</url>
-          <line>6</line>
-          <properties class="wiring.App" method="main">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
