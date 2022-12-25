@@ -11,6 +11,6 @@ public class App {
 
         System.out.println("person's name : " + p.getName());
         System.out.println("car's make : " + c.getMake());
-        System.out.println("person's car : " + p.getCar().getMake());
+        System.out.println("person's car : " + p.getCar());
     }
 }

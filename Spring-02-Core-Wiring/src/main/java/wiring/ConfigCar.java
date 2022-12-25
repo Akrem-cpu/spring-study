@@ -9,11 +9,20 @@ public class ConfigCar {
         car.setMake("Honda");
        return car;
     }
-    @Bean
-    public Person person(){
+    // Direct wiring
+//    @Bean
+//    public Person person(){
+//      Person p = new Person();
+//      p.setName("mike");
+//      p.setCar(car());
+//      return p;
+//    }
+    //Auto wiring
+        @Bean
+    public Person person(Car car){
       Person p = new Person();
       p.setName("mike");
-      p.setCar(car());
+      p.setCar(car);
       return p;
     }
 }

@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18f30876-6e01-438d-ad00-223757364b89" name="Changes" comment="Spring-core-wiring">
-      <change afterPath="$PROJECT_DIR$/Spring-02-Core-Wiring/src/main/java/wiring/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-02-Core-Wiring/src/main/java/wiring/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-02-Core-Wiring/src/main/java/wiring/ConfigCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-02-Core-Wiring/src/main/java/wiring/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-02-Core-Wiring/Spring-02-Core-Wiring.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-02-Core-Wiring/src/main/java/wiring/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-02-Core-Wiring/src/main/java/wiring/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-02-Core-Wiring/src/main/java/wiring/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-02-Core-Wiring/src/main/java/wiring/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-02-Core-Wiring/src/main/java/wiring/ConfigCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-02-Core-Wiring/src/main/java/wiring/ConfigCar.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671397409260</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Spring-core-wiring">
+      <created>1671938435523</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1671938435523</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -127,5 +130,19 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Spring-core-wiring" />
     <option name="LAST_COMMIT_MESSAGE" value="Spring-core-wiring" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Spring-02-Core-Wiring/src/main/java/wiring/App.java</url>
+          <line>6</line>
+          <properties class="wiring.App" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
