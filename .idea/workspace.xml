@@ -4,20 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18f30876-6e01-438d-ad00-223757364b89" name="Changes" comment="@Qualifier">
-      <change afterPath="$PROJECT_DIR$/Spring-05-core-BeanScope/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-05-core-BeanScope/src/main/java/com/akrem/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-05-core-BeanScope/src/main/java/com/akrem/config/ProjectConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-05-core-BeanScope/src/main/java/com/akrem/model/Comment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-05-core-BeanScope/src/main/java/com/akrem/proxy/CommentNotificationProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-05-core-BeanScope/src/main/java/com/akrem/proxy/CommentPushNotificationProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-05-core-BeanScope/src/main/java/com/akrem/proxy/EmailCommentNotificationProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-05-core-BeanScope/src/main/java/com/akrem/repository/CommentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-05-core-BeanScope/src/main/java/com/akrem/repository/DBCommentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-05-core-BeanScope/src/main/java/com/akrem/serivce/CommentService.java" afterDir="false" />
+    <list default="true" id="18f30876-6e01-438d-ad00-223757364b89" name="Changes" comment="BeanScope">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-04-Abstraction/src/main/java/com/akrem/proxy/CommentPushNotificationProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-04-Abstraction/src/main/java/com/akrem/proxy/CommentPushNotificationProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-05-core-BeanScope/src/main/java/com/akrem/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-05-core-BeanScope/src/main/java/com/akrem/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +52,7 @@
       <recent name="com.akrem" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.App (3)">
+  <component name="RunManager" selected="Application.App (4)">
     <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Stereotype.App" />
       <module name="Spring-01-Core-IoC" />
@@ -103,6 +92,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="App (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.akrem.App" />
+      <module name="Spring-05-core-BeanScope" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.akrem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.akrem.bean_annotation.App" />
       <module name="Spring-01-Core-IoC" />
@@ -131,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App (4)" />
         <item itemvalue="Application.App (3)" />
         <item itemvalue="Application.App (3)" />
         <item itemvalue="Application.App (2)" />
         <item itemvalue="Application.App (1)" />
-        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672015438034</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="BeanScope">
+      <created>1672022317824</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1672022317824</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -209,6 +218,7 @@
     <MESSAGE value="Spring-core-wiring" />
     <MESSAGE value="Abstraction" />
     <MESSAGE value="@Qualifier" />
-    <option name="LAST_COMMIT_MESSAGE" value="@Qualifier" />
+    <MESSAGE value="BeanScope" />
+    <option name="LAST_COMMIT_MESSAGE" value="BeanScope" />
   </component>
 </project>

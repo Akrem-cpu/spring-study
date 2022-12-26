@@ -14,8 +14,12 @@ public class App {
 
         ApplicationContext container = new AnnotationConfigApplicationContext(ProjectConfig.class);
 
-        CommentService commentService = container.getBean(CommentService.class);
-         commentService.publishComment(comment);
+        CommentService commentService1 = container.getBean(CommentService.class);
+        CommentService commentService2 = container.getBean(CommentService.class);
+        System.out.println(commentService1 == commentService2);
+        System.out.println(commentService1);
+        System.out.println(commentService2);
+
 
     }
 }
