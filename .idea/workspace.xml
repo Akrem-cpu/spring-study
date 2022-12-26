@@ -4,16 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18f30876-6e01-438d-ad00-223757364b89" name="Changes" comment="Spring-core-wiring">
-      <change afterPath="$PROJECT_DIR$/Spring-04-Abstraction/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-04-Abstraction/src/main/java/com/akrem/model/Comment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-04-Abstraction/src/main/java/com/akrem/proxy/CommentNotificationProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-04-Abstraction/src/main/java/com/akrem/proxy/EmailCommentNotificationProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-04-Abstraction/src/main/java/com/akrem/repository/CommentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-04-Abstraction/src/main/java/com/akrem/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="18f30876-6e01-438d-ad00-223757364b89" name="Changes" comment="Abstraction">
+      <change afterPath="$PROJECT_DIR$/Spring-04-Abstraction/src/main/java/com/akrem/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-04-Abstraction/src/main/java/com/akrem/config/ProjectConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-04-Abstraction/src/main/java/com/akrem/proxy/CommentPushNotificationProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-04-Abstraction/src/main/java/com/akrem/serivce/CommentService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-04-Abstraction/src/main/java/com/akrem/proxy/EmailCommentNotificationProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-04-Abstraction/src/main/java/com/akrem/proxy/EmailCommentNotificationProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-04-Abstraction/src/main/java/com/akrem/repository/DBCommentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-04-Abstraction/src/main/java/com/akrem/repository/DBCommentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-04-Abstraction/src/main/java/com/akrem/test.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -48,6 +47,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.akrem" />
     </key>
@@ -81,7 +83,7 @@
     </configuration>
     <configuration name="App (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.akrem.App" />
-      <module name="Spring-03-core-DI" />
+      <module name="Spring-04-Abstraction" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.akrem.*" />
@@ -105,8 +107,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.akrem.App" />
+      <module name="Spring-03-core-DI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App (3)" />
         <item itemvalue="Application.App (3)" />
         <item itemvalue="Application.App (2)" />
         <item itemvalue="Application.App (1)" />
@@ -151,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671992600891</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Abstraction">
+      <created>1672012469093</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1672012469093</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -168,6 +191,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Spring-core-wiring" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spring-core-wiring" />
+    <MESSAGE value="Abstraction" />
+    <option name="LAST_COMMIT_MESSAGE" value="Abstraction" />
   </component>
 </project>
