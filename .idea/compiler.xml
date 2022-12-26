@@ -11,6 +11,7 @@
         <module name="Spring-04-Abstraction" />
         <module name="Spring-01-Core-IoC" />
         <module name="Spring-03-core-DI" />
+        <module name="Spring-05-core-BeanScope" />
       </profile>
     </annotationProcessing>
   </component>
