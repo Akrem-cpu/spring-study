@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18f30876-6e01-438d-ad00-223757364b89" name="Changes" comment="BeanScope" />
+    <list default="true" id="18f30876-6e01-438d-ad00-223757364b89" name="Changes" comment="BeanScope">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,7 +89,7 @@
       <recent name="com.akrem" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="Spring Boot.DemoApplication">
     <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Stereotype.App" />
       <module name="Spring-01-Core-IoC" />
@@ -213,7 +216,7 @@
       <workItem from="1673320405664" duration="1035000" />
       <workItem from="1673321468894" duration="225000" />
       <workItem from="1673321709556" duration="1294000" />
-      <workItem from="1673323304622" duration="177000" />
+      <workItem from="1673323304622" duration="474000" />
     </task>
     <task id="LOCAL-00001" summary="Spring-core-wiring">
       <created>1671397409260</created>
@@ -299,7 +302,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673323380928</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="BeanScope">
+      <created>1673323569670</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1673323569670</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,9 +332,9 @@
     <MESSAGE value="Spring-core-wiring" />
     <MESSAGE value="Abstraction" />
     <MESSAGE value="@Qualifier" />
-    <MESSAGE value="BeanScope" />
     <MESSAGE value="Spring boot Demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spring boot Demo" />
+    <MESSAGE value="BeanScope" />
+    <option name="LAST_COMMIT_MESSAGE" value="BeanScope" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
