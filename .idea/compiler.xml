@@ -3,17 +3,6 @@
   <component name="CompilerConfiguration">
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
-      <profile name="Maven default annotation processors profile" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="Spring-02-Core-Wiring" />
-        <module name="Spring-04-Abstraction" />
-        <module name="Spring-06-SpringBoot-Demo" />
-        <module name="Spring-01-Core-IoC" />
-        <module name="Spring-05-core-BeanScope" />
-        <module name="Spring-03-core-DI" />
-      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="demo" target="17" />
