@@ -7,6 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
+import java.util.Arrays;
+
 @SpringBootApplication
 public class DemoApplication {
 
@@ -18,6 +20,9 @@ public class DemoApplication {
 
         CommentService cs = context.getBean(CommentService.class);
         cs.publishComment(comment);
+        System.out.println(cs.name);
+
+        System.out.println(Arrays.toString(cs.days));
 
     }
 
