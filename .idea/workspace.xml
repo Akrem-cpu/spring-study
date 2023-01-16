@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18f30876-6e01-438d-ad00-223757364b89" name="Changes" comment="BeanScope">
+      <change afterPath="$PROJECT_DIR$/Spring-07-Spring-MVC-controller/src/main/java/com/akrem/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-07-Spring-MVC-controller/src/main/resources/static/user/userinfo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Spring-07-Spring-MVC-controller/src/main/java/com/akrem/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-07-Spring-MVC-controller/src/main/java/com/akrem/controller/HomeController.java" afterDir="false" />
     </list>
@@ -84,6 +86,10 @@
       <recent name="C:\Users\akrem\spring-study\Spring-06-SpringBoot-Demo\src\main\java\com\akrem\repository" />
       <recent name="C:\Users\akrem\spring-study\Spring-06-SpringBoot-Demo\src\main\java\com\akrem\proxy" />
       <recent name="C:\Users\akrem\spring-study\Spring-05-core-BeanScope\src\main\java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\akrem\spring-study\Spring-07-Spring-MVC-controller\src\main\resources\static" />
+      <recent name="C:\Users\akrem\spring-study\Spring-07-Spring-MVC-controller\src\main\resources\static\user" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
