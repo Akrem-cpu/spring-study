@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18f30876-6e01-438d-ad00-223757364b89" name="Changes" comment="BeanScope">
-      <change afterPath="$PROJECT_DIR$/Spring-07-Spring-MVC-controller/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-07-Spring-MVC-controller/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-07-Spring-MVC-controller/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-07-Spring-MVC-controller/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-07-Spring-MVC-controller/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-07-Spring-MVC-controller/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-07-Spring-MVC-controller/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-07-Spring-MVC-controller/src/main/java/com/akrem/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-07-Spring-MVC-controller/src/main/resources/static/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -261,7 +254,7 @@
       <workItem from="1673323304622" duration="474000" />
       <workItem from="1673503250510" duration="2071000" />
       <workItem from="1673818960471" duration="3254000" />
-      <workItem from="1673846496721" duration="2645000" />
+      <workItem from="1673846496721" duration="3856000" />
     </task>
     <task id="LOCAL-00001" summary="Spring-core-wiring">
       <created>1671397409260</created>
@@ -389,7 +382,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673822484632</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="MVC controller">
+      <created>1673851100945</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1673851100945</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -416,6 +416,7 @@
     <MESSAGE value="BeanScope" />
     <MESSAGE value="fix" />
     <MESSAGE value="Spring Boot Demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spring Boot Demo" />
+    <MESSAGE value="MVC controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="MVC controller" />
   </component>
 </project>
