@@ -1,5 +1,6 @@
 package com.akrem.controller;
 
+import com.akrem.model.Student;
 import org.apache.tomcat.jni.Local;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -23,6 +24,10 @@ public class StudentController {
 
         List<Integer> id = Arrays.asList(1,2,3,4,29,10);
         model.addAttribute("id",id);
+
+        Student student = new Student(0,"akrem","jemal");
+        model.addAttribute("student",student);
+
 
 
 

@@ -1,5 +1,5 @@
-<!Doctype html>
-<html xmlns:th="http://wwww.thymeleaf.org">
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
@@ -11,6 +11,9 @@
    <h2 th:text="${name}"></h2>
    <h2 th:text="${number}"></h2>
    <h2 th:text="${id.get(0)}"></h2>
+   <h2 th:text="${student.getFirstName()}"></h2>
+   <h2 th:text="${student.getLastName()}"></h2>
+   <h2 th:text="${student.getId()}"></h2>
 
 </body>
 </html>
