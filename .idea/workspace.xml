@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18f30876-6e01-438d-ad00-223757364b89" name="Changes" comment="BeanScope">
-      <change afterPath="$PROJECT_DIR$/Spring-08-Spring-MVC-Model/src/main/java/com/akrem/controller/AnotherController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-08-Spring-MVC-Model/src/main/java/com/akrem/controller/Assigment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-08-Spring-MVC-Model/src/main/java/com/akrem/controller/CarController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-08-Spring-MVC-Model/src/main/resources/templates/car/car-info.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +100,7 @@
       <recent name="com.akrem" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Assigment">
+  <component name="RunManager" selected="Spring Boot.Spring08SpringMvcModelApplication">
     <configuration name="App (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.akrem.App" />
       <module name="Spring-04-Abstraction" />
@@ -149,6 +149,19 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -244,6 +257,7 @@
       <workItem from="1674011472938" duration="5463000" />
       <workItem from="1674186752348" duration="473000" />
       <workItem from="1674250117936" duration="3905000" />
+      <workItem from="1674328582156" duration="2739000" />
     </task>
     <task id="LOCAL-00001" summary="Spring-core-wiring">
       <created>1671397409260</created>
@@ -413,7 +427,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674016370359</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Spring mvc">
+      <created>1674328649271</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1674328649271</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -443,22 +464,7 @@
     <MESSAGE value="MVC controller" />
     <MESSAGE value="MVC Model" />
     <MESSAGE value="Model" />
-    <option name="LAST_COMMIT_MESSAGE" value="Model" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Spring-08-Spring-MVC-Model/src/main/java/com/akrem/controller/Assigment.java</url>
-          <line>71</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Spring-08-Spring-MVC-Model/src/main/java/com/akrem/controller/Assigment.java</url>
-          <line>58</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Spring mvc" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring mvc" />
   </component>
 </project>
