@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18f30876-6e01-438d-ad00-223757364b89" name="Changes" comment="BeanScope">
-      <change afterPath="$PROJECT_DIR$/Spring-08-Spring-MVC-Model/src/main/java/com/akrem/controller/CarController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-08-Spring-MVC-Model/src/main/resources/templates/car/car-info.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +98,7 @@
       <recent name="com.akrem" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Spring08SpringMvcModelApplication">
+  <component name="RunManager" selected="Spring Boot.Spring09SpringThymeleafApplication">
     <configuration name="App (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.akrem.App" />
       <module name="Spring-04-Abstraction" />
@@ -217,6 +215,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Spring09SpringThymeleafApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Spring-09-Spring-Thymeleaf" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.akrem.Spring09SpringThymeleafApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.App (3)" />
       <item itemvalue="Application.App (4)" />
@@ -228,6 +233,7 @@
       <item itemvalue="Spring Boot.DemoApplication (2)" />
       <item itemvalue="Spring Boot.Spring07SpringMvcControllerApplication" />
       <item itemvalue="Spring Boot.Spring08SpringMvcModelApplication" />
+      <item itemvalue="Spring Boot.Spring09SpringThymeleafApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -257,7 +263,7 @@
       <workItem from="1674011472938" duration="5463000" />
       <workItem from="1674186752348" duration="473000" />
       <workItem from="1674250117936" duration="3905000" />
-      <workItem from="1674328582156" duration="2739000" />
+      <workItem from="1674328582156" duration="4640000" />
     </task>
     <task id="LOCAL-00001" summary="Spring-core-wiring">
       <created>1671397409260</created>
@@ -434,7 +440,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674328649271</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Spring mvc">
+      <created>1674331408386</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1674331408386</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
