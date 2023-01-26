@@ -19,7 +19,20 @@
 <!--link-->
  <a th:href="@{http://google.com}"> click here to go to google </a>
  <br>
+       <!--link with in the app-->
  <a th:href="@{/student/info}"> Click here to go to student info</a>
+
+       <!--link with param-->
+ <a th:href="@{/student/info(id=2)}"> by id</a>
+ <a th:href="@{/student/info(name=${students.get(0).firstName})}"> by name </a>
+
+
+<!--Iteration-->
+<h2>Loop </h2>
+       <ul>
+           <li th:each="each: ${students}" th:text="${each}"></li>
+       </ul>
+
 
 
 </body>
