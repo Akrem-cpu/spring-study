@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+       <h2>Welcome new student</h2>
+<!--displaying value-->
+       <h2 th:text="${students.get(0).getFirstName()}"></h2>
+       <h2 th:text="${students.get(0).lastName}"></h2>
+
+
+<!--Concatenation-->
+       <h2 th:text="${'welcome ' +students.get(0).getFirstName()}"></h2>
+      <!-- <h2 th:text="${students.get(0).getFirstName()+' welcome' }"></h2>-->
+
+<!--link-->
+ <a th:href="@{http://google.com}"> click here to go to google </a>
+ <br>
+ <a th:href="@{/student/info}"> Click here to go to student info</a>
+
+
+</body>
+</html>
