@@ -14,24 +14,11 @@
         </thead>
         <tbody>
         <tr>
-            <td th:text="${mentors.get(0).getFirstName()}"></td>
-            <td th:text="${mentors.get(0).getLastName()}"></td>
-            <td th:text="${mentors.get(0).getAge()}"></td>
-            <td th:text="${mentors.get(0).getGender()}"></td>
+            <td th:each="each : ${mentors}" th:text="${each.getFirstName()}"></td>
+            <td th:each="each : ${mentors}" th:text="${each.lastName}"></td>
+            <td th:each="each : ${mentors}" th:text="${each.age}"></td>
+            <td th:each="each : ${mentors}" th:text="${each.getGender()}"></td>
         </tr>
-        <tr>
-            <td th:text="${mentors.get(1).getFirstName()}"></td>
-            <td th:text="${mentors.get(1).getLastName()}"></td>
-            <td th:text="${mentors.get(1).getAge()}"></td>
-            <td th:text="${mentors.get(1).getGender()}"></td>
-        </tr>
-        <tr>
-            <td th:text="${mentors.get(2).getFirstName()}"></td>
-            <td th:text="${mentors.get(2).getLastName()}"></td>
-            <td th:text="${mentors.get(2).getAge()}"></td>
-            <td th:text="${mentors.get(2).getGender()}"></td>
-        </tr>
-
         </tbody>
     </table>
 

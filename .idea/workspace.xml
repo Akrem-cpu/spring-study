@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18f30876-6e01-438d-ad00-223757364b89" name="Changes" comment="BeanScope">
+      <change afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/java/com/akrem/controller/MentorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/java/com/akrem/model/Mentor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/resources/messages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/resources/templates/mentor/mentor-register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/resources/templates/student/register-student.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-08-Spring-MVC-Model/src/main/resources/templates/employee/employee-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-08-Spring-MVC-Model/src/main/resources/templates/employee/employee-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/java/com/akrem/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/java/com/akrem/controller/StudentController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/resources/templates/student/info.html" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/resources/templates/student/info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/resources/templates/student/register.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,8 +52,8 @@
       <list>
         <option value="Interface" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -91,6 +99,7 @@
       <recent name="C:\Users\akrem\spring-study\Spring-05-core-BeanScope\src\main\java" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\akrem\spring-study\Spring-09-Spring-Thymeleaf\src\main\resources" />
       <recent name="C:\Users\akrem\spring-study\Spring-07-Spring-MVC-controller\src\main\resources\static" />
       <recent name="C:\Users\akrem\spring-study\Spring-07-Spring-MVC-controller\src\main\resources\static\user" />
     </key>
@@ -152,6 +161,19 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -257,7 +279,10 @@
       <workItem from="1674250117936" duration="3905000" />
       <workItem from="1674328582156" duration="16876000" />
       <workItem from="1674787123712" duration="745000" />
-      <workItem from="1675024533221" duration="534000" />
+      <workItem from="1675024533221" duration="3349000" />
+      <workItem from="1675304092080" duration="2448000" />
+      <workItem from="1675306581296" duration="118000" />
+      <workItem from="1675306715032" duration="3249000" />
     </task>
     <task id="LOCAL-00001" summary="Spring-core-wiring">
       <created>1671397409260</created>
@@ -469,7 +494,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674787300386</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Spring thymeleaf">
+      <created>1675026467893</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1675026467893</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title th:text="#{index.page.title}">Title</title>
+</head>
+<body>
+
+<h2>Welcome new student</h2>
+<!--displaying value-->
+<h2 th:text="${students.get(0).getFirstName()}"></h2>
+<h2 th:text="${students.get(0).lastName}"></h2>
+
+
+<!--Concatenation-->
+<h2 th:text="${'welcome ' +students.get(0).getFirstName()}"></h2>
+<!-- <h2 th:text="${students.get(0).getFirstName()+' welcome' }"></h2>-->
+
+<!--link-->
+<a th:href="@{http://google.com}"> click here to go to google </a>
+<br>
+<!--link with in the app-->
+<a th:href="@{/student/info}"> Click here to go to student info</a>
+
+<!--link with param-->
+<a th:href="@{/student/info(id=2)}"> by id</a>
+<a th:href="@{/student/info(name=${students.get(0).firstName})}"> by name </a>
+
+
+<!--Iteration-->
+<h2>Loop </h2>
+<ul>
+    <li th:each="each: ${students}" th:text="${each}"></li>
+</ul>
+
+
+<!--Conditional Logic-->
+<div th:text="${students.get(0).getAge() > 25 ? 'Eligable':'Not Eligable'}"></div>
+
+<div>
+    <span th:if="${students.get(0).getState() == 'Ariozn'}">Ariz0na</span>
+    <span th:unless="${students.get(0).getState() == 'Arizona'}">Not Ariz0na</span>
+</div>
+
+
+</body>
+</html>
+
+
+
