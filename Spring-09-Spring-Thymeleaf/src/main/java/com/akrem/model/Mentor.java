@@ -3,10 +3,12 @@ package com.akrem.model;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import lombok.ToString;
 
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
+@ToString
 public class Mentor {
     private String firstName;
     private String lastName;

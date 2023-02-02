@@ -7,7 +7,7 @@
 <div align="center">
 <body>
 
- <form th:object="${mentor}">
+ <form th:action="@{/mentor/confirm}" method="post" th:object="${mentor}">
     <label>First Name:</label>
    <input type = "text"  id="FirstName" th:field="*{firstName}"><br><br>
 
@@ -18,8 +18,8 @@
    <input type = "text"  id="Email" th:field="*{email}"><br><br>
 
      <label>Gender:</label>
-     <input type = "radio"  value="Male" th:field="*{gender}">
-     <input type = "radio"  value="Female" th:field="*{gender}"><br><br>
+     <input type = "radio"  value="Male" th:field="*{gender}">Male
+     <input type = "radio"  value="Female" th:field="*{gender}">Female<br><br>
 
 
 
@@ -34,7 +34,7 @@
      <input type = "checkbox"  th:field="*{graduated}"><br><br>
 
      <label>Company:</label>
-     <textarea th:field = "*{company}"></textarea>
+     <textarea th:field = "*{company}"></textarea><br>
 
      <button type="submit">Register</button>
 

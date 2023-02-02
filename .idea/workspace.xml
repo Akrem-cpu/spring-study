@@ -5,16 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18f30876-6e01-438d-ad00-223757364b89" name="Changes" comment="BeanScope">
-      <change afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/java/com/akrem/controller/MentorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/java/com/akrem/model/Mentor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/resources/messages.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/resources/templates/mentor/mentor-register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/resources/templates/student/register-student.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/resources/templates/mentor/confirmation.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-08-Spring-MVC-Model/src/main/resources/templates/employee/employee-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-08-Spring-MVC-Model/src/main/resources/templates/employee/employee-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/java/com/akrem/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/java/com/akrem/controller/StudentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/resources/templates/student/info.html" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/resources/templates/student/info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/resources/templates/student/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/java/com/akrem/controller/MentorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/java/com/akrem/controller/MentorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/java/com/akrem/model/Mentor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/java/com/akrem/model/Mentor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/resources/templates/mentor/mentor-register.html" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/resources/templates/mentor/mentor-register.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,8 +48,8 @@
       <list>
         <option value="Interface" />
         <option value="Enum" />
-        <option value="HTML File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -231,7 +227,18 @@
     </configuration>
     <configuration name="Spring09SpringThymeleafApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="Spring-09-Spring-Thymeleaf" />
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.akrem.Spring09SpringThymeleafApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -282,7 +289,10 @@
       <workItem from="1675024533221" duration="3349000" />
       <workItem from="1675304092080" duration="2448000" />
       <workItem from="1675306581296" duration="118000" />
-      <workItem from="1675306715032" duration="3249000" />
+      <workItem from="1675306715032" duration="3708000" />
+      <workItem from="1675525600911" duration="1501000" />
+      <workItem from="1675536215711" duration="804000" />
+      <workItem from="1675537124033" duration="3707000" />
     </task>
     <task id="LOCAL-00001" summary="Spring-core-wiring">
       <created>1671397409260</created>
@@ -501,7 +511,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675026467893</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Thymeleaf Form and condition">
+      <created>1675310358634</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1675310358634</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -533,7 +550,8 @@
     <MESSAGE value="Model" />
     <MESSAGE value="Spring mvc" />
     <MESSAGE value="Spring thymeleaf" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spring thymeleaf" />
+    <MESSAGE value="Thymeleaf Form and condition" />
+    <option name="LAST_COMMIT_MESSAGE" value="Thymeleaf Form and condition" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
