@@ -5,30 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18f30876-6e01-438d-ad00-223757364b89" name="Changes" comment="BeanScope">
-      <change afterPath="$PROJECT_DIR$/employee-99-regisration-project/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-99-regisration-project/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-99-regisration-project/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-99-regisration-project/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-99-regisration-project/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-99-regisration-project/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-99-regisration-project/src/main/java/akrem/demo/EmployeeRegisrationProjectApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-99-regisration-project/src/main/java/akrem/demo/bootstarp/EmployeeListData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-99-regisration-project/src/main/java/akrem/demo/controller/EmployeeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-99-regisration-project/src/main/java/akrem/demo/model/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-99-regisration-project/src/main/java/akrem/demo/model/State.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-99-regisration-project/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-99-regisration-project/src/main/resources/messages.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-99-regisration-project/src/main/resources/templates/employee/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-99-regisration-project/src/main/resources/templates/employee/employee-list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-99-regisration-project/src/main/resources/templates/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-99-regisration-project/src/test/java/akrem/demo/EmployeeRegisrationProjectApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-regisration-project/src/main/java/com/akrem/demo/controller/EmployeeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-regisration-project/src/main/java/com/akrem/demo/model/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-regisration-project/src/main/resources/templates/employee/employee-create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-regisration-project/src/main/resources/templates/test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -144,7 +122,7 @@
       <recent name="com.akrem" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.EmployeeRegisrationProjectApplication">
+  <component name="RunManager" selected="Spring Boot.EmployeeRegisrationProjectApplication (1)">
     <configuration name="App (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.akrem.App" />
       <module name="Spring-04-Abstraction" />
@@ -197,15 +175,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -247,9 +223,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DemoApplication (4)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo (2)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.akrem.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="Spring-06-SpringBoot-Demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.akrem.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeRegisrationProjectApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo (1) (akrem)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="akrem.demo.EmployeeRegisrationProjectApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -261,6 +251,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Spring07SpringMvcControllerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo (3)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.akrem.Spring07SpringMvcControllerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Spring07SpringMvcControllerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="Spring-07-Spring-MVC-controller" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.akrem.Spring07SpringMvcControllerApplication" />
@@ -268,9 +265,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Spring08SpringMvcModelApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo (4)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.akrem.Spring08SpringMvcModelApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Spring08SpringMvcModelApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="Spring-08-Spring-MVC-Model" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.akrem.Spring08SpringMvcModelApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Spring09SpringThymeleafApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo (5)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.akrem.Spring09SpringThymeleafApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -307,6 +318,11 @@
       <item itemvalue="Spring Boot.Spring09SpringThymeleafApplication" />
       <item itemvalue="Spring Boot.DemoApplication (3)" />
       <item itemvalue="Spring Boot.EmployeeRegisrationProjectApplication" />
+      <item itemvalue="Spring Boot.EmployeeRegisrationProjectApplication (1)" />
+      <item itemvalue="Spring Boot.Spring09SpringThymeleafApplication (1)" />
+      <item itemvalue="Spring Boot.Spring07SpringMvcControllerApplication (1)" />
+      <item itemvalue="Spring Boot.Spring08SpringMvcModelApplication (1)" />
+      <item itemvalue="Spring Boot.DemoApplication (4)" />
     </list>
     <recent_temporary>
       <list>
@@ -347,6 +363,7 @@
       <workItem from="1675537124033" duration="4198000" />
       <workItem from="1675614319244" duration="13512000" />
       <workItem from="1675735420268" duration="3697000" />
+      <workItem from="1675742192151" duration="340000" />
     </task>
     <task id="LOCAL-00001" summary="Spring-core-wiring">
       <created>1671397409260</created>
