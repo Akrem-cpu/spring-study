@@ -5,12 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18f30876-6e01-438d-ad00-223757364b89" name="Changes" comment="BeanScope">
-      <change afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/resources/templates/mentor/confirmation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee-99-regisration-project/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee-99-regisration-project/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee-99-regisration-project/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee-99-regisration-project/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee-99-regisration-project/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee-99-regisration-project/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee-99-regisration-project/src/main/java/akrem/demo/EmployeeRegisrationProjectApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee-99-regisration-project/src/main/java/akrem/demo/bootstarp/EmployeeListData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee-99-regisration-project/src/main/java/akrem/demo/controller/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee-99-regisration-project/src/main/java/akrem/demo/model/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee-99-regisration-project/src/main/java/akrem/demo/model/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee-99-regisration-project/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee-99-regisration-project/src/main/resources/messages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee-99-regisration-project/src/main/resources/templates/employee/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee-99-regisration-project/src/main/resources/templates/employee/employee-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee-99-regisration-project/src/main/resources/templates/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee-99-regisration-project/src/test/java/akrem/demo/EmployeeRegisrationProjectApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee-regisration-project/src/main/java/com/akrem/demo/controller/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee-regisration-project/src/main/java/com/akrem/demo/model/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee-regisration-project/src/main/resources/templates/employee/employee-create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee-regisration-project/src/main/resources/templates/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/java/com/akrem/controller/MentorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/java/com/akrem/controller/MentorController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/java/com/akrem/model/Mentor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/java/com/akrem/model/Mentor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/resources/templates/mentor/mentor-register.html" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/resources/templates/mentor/mentor-register.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,14 +67,28 @@
       <list>
         <option value="Interface" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Backup" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="69ef0d4d-c93b-4caa-9295-8a7074f1373e" />
@@ -81,18 +114,19 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8.0_231" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/resources/static" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/employee-99-regisration-project/src/main/resources/templates/employee" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15703125" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\akrem\spring-study\employee-99-regisration-project\src\main\resources\templates\employee" />
+      <recent name="C:\Users\akrem\spring-study\employee-99-regisration-project\src\main\resources\templates" />
       <recent name="C:\Users\akrem\spring-study\Spring-09-Spring-Thymeleaf\src\main\resources\static" />
       <recent name="C:\Users\akrem\spring-study\Spring-06-SpringBoot-Demo\src\main\java\com\akrem\repository" />
       <recent name="C:\Users\akrem\spring-study\Spring-06-SpringBoot-Demo\src\main\java\com\akrem\proxy" />
-      <recent name="C:\Users\akrem\spring-study\Spring-05-core-BeanScope\src\main\java" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\akrem\spring-study\Spring-09-Spring-Thymeleaf\src\main\resources" />
@@ -103,12 +137,14 @@
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="akrem.demo.model" />
+      <recent name="akrem.demo.controller" />
       <recent name="com.akrem.service" />
       <recent name="com.akrem.model" />
       <recent name="com.akrem" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Spring09SpringThymeleafApplication">
+  <component name="RunManager" selected="Spring Boot.EmployeeRegisrationProjectApplication">
     <configuration name="App (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.akrem.App" />
       <module name="Spring-04-Abstraction" />
@@ -204,9 +240,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DemoApplication (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="employee-regisration-project" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.akrem.demo.EmployeeRegistration" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="Spring-06-SpringBoot-Demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.akrem.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeRegisrationProjectApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="employee-99-regisration-project" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="akrem.demo.EmployeeRegisrationProjectApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -255,13 +305,15 @@
       <item itemvalue="Spring Boot.Spring07SpringMvcControllerApplication" />
       <item itemvalue="Spring Boot.Spring08SpringMvcModelApplication" />
       <item itemvalue="Spring Boot.Spring09SpringThymeleafApplication" />
+      <item itemvalue="Spring Boot.DemoApplication (3)" />
+      <item itemvalue="Spring Boot.EmployeeRegisrationProjectApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Assigment" />
-        <item itemvalue="Application.App (4)" />
         <item itemvalue="JUnit.DemoApplicationTests.contextLoads" />
+        <item itemvalue="Application.Assigment" />
         <item itemvalue="Application.App (5)" />
+        <item itemvalue="Application.App (4)" />
         <item itemvalue="Application.App (3)" />
       </list>
     </recent_temporary>
@@ -292,7 +344,9 @@
       <workItem from="1675306715032" duration="3708000" />
       <workItem from="1675525600911" duration="1501000" />
       <workItem from="1675536215711" duration="804000" />
-      <workItem from="1675537124033" duration="3707000" />
+      <workItem from="1675537124033" duration="4198000" />
+      <workItem from="1675614319244" duration="13512000" />
+      <workItem from="1675735420268" duration="3697000" />
     </task>
     <task id="LOCAL-00001" summary="Spring-core-wiring">
       <created>1671397409260</created>
@@ -518,7 +572,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675310358634</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Thymeleaf Form and condition">
+      <created>1675541109229</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1675541109230</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -560,6 +621,11 @@
           <url>file://$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/java/com/akrem/bootstrap/DataGenerator.java</url>
           <line>20</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/java/com/akrem/controller/MentorController.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
