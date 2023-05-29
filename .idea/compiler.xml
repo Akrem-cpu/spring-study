@@ -15,6 +15,7 @@
         <module name="Spring-08-Spring-MVC-Model" />
         <module name="Spring-04-Abstraction" />
         <module name="Spring-01-Core-IoC" />
+        <module name="demo" />
         <module name="employee-99-regisration-project" />
         <module name="Spring-09-Spring-Thymeleaf" />
         <module name="Spring-06-SpringBoot-Demo" />
@@ -22,11 +23,11 @@
         <module name="demo (4)" />
         <module name="demo (3)" />
         <module name="demo (1) (akrem)" />
+        <module name="Spring-10-ORM-TableCreation" />
         <module name="employee-100-registartion-project" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="demo" target="17" />
       <module name="demo.main" target="17" />
       <module name="demo.test" target="17" />
       <module name="employee-100-registartion-project" target="1.8" />
@@ -39,6 +40,8 @@
       <module name="Spring-07-Spring-MVC-controller" options="-parameters" />
       <module name="Spring-08-Spring-MVC-Model" options="-parameters" />
       <module name="Spring-09-Spring-Thymeleaf" options="-parameters" />
+      <module name="Spring-10-ORM-TableCreation" options="-parameters" />
+      <module name="demo" options="-parameters" />
       <module name="demo (1) (akrem)" options="-parameters" />
       <module name="demo (2)" options="-parameters" />
       <module name="demo (3)" options="-parameters" />

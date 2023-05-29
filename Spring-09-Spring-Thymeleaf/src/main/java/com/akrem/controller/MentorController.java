@@ -24,6 +24,8 @@ public class MentorController {
     public String showForm2( @ModelAttribute("mentor") Mentor mentor, Model model){
 
         System.out.println(mentor);
+        // check there token
+        // check if 3 then if mq send to funding
 
 
        // return "mentor/confirmation";
