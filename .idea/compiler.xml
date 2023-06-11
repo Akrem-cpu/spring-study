@@ -10,6 +10,7 @@
         <module name="Spring-07-Spring-MVC-controller" />
         <module name="Spring-05-core-BeanScope" />
         <module name="Spring-03-core-DI" />
+        <module name="Spring-11-ORM-Mapping-OneTOOne" />
         <module name="demo (5)" />
         <module name="Spring-02-Core-Wiring" />
         <module name="Spring-08-Spring-MVC-Model" />
@@ -41,6 +42,7 @@
       <module name="Spring-08-Spring-MVC-Model" options="-parameters" />
       <module name="Spring-09-Spring-Thymeleaf" options="-parameters" />
       <module name="Spring-10-ORM-TableCreation" options="-parameters" />
+      <module name="Spring-11-ORM-Mapping-OneTOOne" options="-parameters" />
       <module name="demo" options="-parameters" />
       <module name="demo (1) (akrem)" options="-parameters" />
       <module name="demo (2)" options="-parameters" />
