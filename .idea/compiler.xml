@@ -26,13 +26,16 @@
         <module name="demo (1) (akrem)" />
         <module name="Spring-10-ORM-TableCreation" />
         <module name="employee-100-registartion-project" />
+        <module name="Spring-12-OneToOneAndOneToMany-mapping" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="demo (1) (com.akrem)" target="1.8" />
       <module name="demo.main" target="17" />
       <module name="demo.test" target="17" />
       <module name="employee-100-registartion-project" target="1.8" />
       <module name="employee-regisration-project" target="1.8" />
+      <module name="Spring-12-ORM-Mapping-oneToOneandManyToOne" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -43,8 +46,11 @@
       <module name="Spring-09-Spring-Thymeleaf" options="-parameters" />
       <module name="Spring-10-ORM-TableCreation" options="-parameters" />
       <module name="Spring-11-ORM-Mapping-OneTOOne" options="-parameters" />
+      <module name="Spring-12-ORM-Mapping-oneToOneandManyToOne" options="-parameters" />
+      <module name="Spring-12-OneToOneAndOneToMany-mapping" options="-parameters" />
       <module name="demo" options="-parameters" />
       <module name="demo (1) (akrem)" options="-parameters" />
+      <module name="demo (1) (com.akrem)" options="-parameters" />
       <module name="demo (2)" options="-parameters" />
       <module name="demo (3)" options="-parameters" />
       <module name="demo (4)" options="-parameters" />
