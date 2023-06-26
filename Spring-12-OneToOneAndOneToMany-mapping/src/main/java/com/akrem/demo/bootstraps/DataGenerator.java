@@ -1,13 +1,8 @@
 package com.akrem.demo.bootstraps;
 
 import com.akrem.demo.enums.Status;
-import com.akrem.demo.model.Customer;
-import com.akrem.demo.model.Merchant;
-import com.akrem.demo.model.Payment;
-import com.akrem.demo.model.PaymentDetail;
-import com.akrem.demo.repository.CustomerRepository;
-import com.akrem.demo.repository.MerchantRepository;
-import com.akrem.demo.repository.PaymentRepository;
+import com.akrem.demo.model.*;
+import com.akrem.demo.repository.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
@@ -15,6 +10,8 @@ import org.springframework.stereotype.Component;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
+import java.util.Arrays;
+
 @Component
 public class DataGenerator  implements CommandLineRunner {
     @Autowired
@@ -23,6 +20,10 @@ public class DataGenerator  implements CommandLineRunner {
     MerchantRepository merchantRepository;
     @Autowired
     CustomerRepository customerRepository;
+    @Autowired
+    CartRepository cartRepository;
+    @Autowired
+    ItemRepository itemRepository;
 
     @Override
     public void run(String... args) throws Exception {
@@ -42,6 +43,27 @@ public class DataGenerator  implements CommandLineRunner {
         payment2.setCustomer(customer1);
         payment1.setMerchant(merchant1);
         payment2.setMerchant(merchant1);
+
+        Item item1 = new Item("Milk","M01");
+        Item item2 = new Item("Sugar","S01");
+        Item item3 = new Item("Bread","B01");
+
+        Cart cart1 = new Cart();
+        Cart cart2 = new Cart();
+
+
+        cart1.setItemList(Arrays.asList(item1,item2,item3));
+        cart2.setItemList(Arrays.asList(item1,item2));
+
+        itemRepository.saveAll(Arrays.asList(item1,item2,item3));
+        cartRepository.saveAll(Arrays.asList(cart1,cart2));
+
+
+
+
+
+
+
 
         customerRepository.save(customer1);
         merchantRepository.save(merchant1);

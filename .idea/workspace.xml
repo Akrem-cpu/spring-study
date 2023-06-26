@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18f30876-6e01-438d-ad00-223757364b89" name="Changes" comment="BeanScope">
-      <change afterPath="$PROJECT_DIR$/Spring-12-OneToOneAndOneToMany-mapping/src/main/java/com/akrem/demo/model/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-12-OneToOneAndOneToMany-mapping/src/main/java/com/akrem/demo/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-12-OneToOneAndOneToMany-mapping/src/main/java/com/akrem/demo/model/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-12-OneToOneAndOneToMany-mapping/src/main/java/com/akrem/demo/model/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-12-OneToOneAndOneToMany-mapping/src/main/java/com/akrem/demo/repository/CartRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-12-OneToOneAndOneToMany-mapping/src/main/java/com/akrem/demo/repository/ItemRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-06-SpringBoot-Demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-06-SpringBoot-Demo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-06-SpringBoot-Demo/src/main/java/com/akrem/model/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-06-SpringBoot-Demo/src/main/java/com/akrem/model/Comment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Spring-12-OneToOneAndOneToMany-mapping/src/main/java/com/akrem/demo/bootstraps/DataGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-12-OneToOneAndOneToMany-mapping/src/main/java/com/akrem/demo/bootstraps/DataGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-12-OneToOneAndOneToMany-mapping/src/main/java/com/akrem/demo/model/Merchant.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-12-OneToOneAndOneToMany-mapping/src/main/java/com/akrem/demo/model/Merchant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-12-OneToOneAndOneToMany-mapping/src/main/java/com/akrem/demo/model/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-12-OneToOneAndOneToMany-mapping/src/main/java/com/akrem/demo/model/Payment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-12-OneToOneAndOneToMany-mapping/src/main/java/com/akrem/demo/model/PaymentDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-12-OneToOneAndOneToMany-mapping/src/main/java/com/akrem/demo/model/PaymentDetail.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -448,7 +445,7 @@
       <workItem from="1687481751498" duration="1055000" />
       <workItem from="1687482904235" duration="711000" />
       <workItem from="1687631454981" duration="5249000" />
-      <workItem from="1687740352337" duration="2183000" />
+      <workItem from="1687740352337" duration="4122000" />
     </task>
     <task id="LOCAL-00001" summary="Spring-core-wiring">
       <created>1671397409260</created>
@@ -716,7 +713,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687635283604</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Many to one and fetch type">
+      <created>1687743984552</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1687743984552</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -754,7 +758,8 @@
     <MESSAGE value="@oneToMany" />
     <MESSAGE value="ORM one to one" />
     <MESSAGE value="ManyToOne and OneToMany" />
-    <option name="LAST_COMMIT_MESSAGE" value="ManyToOne and OneToMany" />
+    <MESSAGE value="Many to one and fetch type" />
+    <option name="LAST_COMMIT_MESSAGE" value="Many to one and fetch type" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
