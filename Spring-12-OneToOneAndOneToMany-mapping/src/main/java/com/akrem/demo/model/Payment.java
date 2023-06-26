@@ -28,8 +28,11 @@ public class Payment  extends BasedEntity{
     @JoinColumn(name = "payment_ID")
     private PaymentDetail paymentDetail;
 
-    @ManyToOne
+    @ManyToOne()
     private Merchant merchant;
+
+    @ManyToOne
+    Customer customer;
 
     public Payment(LocalDate createdDate, BigDecimal amount, Status paymentStatus) {
         this.createdDate = createdDate;

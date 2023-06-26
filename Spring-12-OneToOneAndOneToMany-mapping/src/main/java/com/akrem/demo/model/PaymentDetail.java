@@ -22,7 +22,6 @@ public class PaymentDetail extends BasedEntity {
 
 
     @OneToOne(mappedBy = "paymentDetail",cascade={CascadeType.PERSIST,CascadeType.REMOVE})
-
     private Payment payment;
 
     public PaymentDetail(BigDecimal merchantPayoutAmount, BigDecimal commissionAmount, LocalDate payoutDate) {

@@ -5,72 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18f30876-6e01-438d-ad00-223757364b89" name="Changes" comment="BeanScope">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-12-OneToOneAndOneToMany-mapping/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-12-OneToOneAndOneToMany-mapping/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-12-OneToOneAndOneToMany-mapping/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-12-OneToOneAndOneToMany-mapping/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-12-OneToOneAndOneToMany-mapping/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-12-OneToOneAndOneToMany-mapping/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-12-OneToOneAndOneToMany-mapping/src/main/java/com/akrem/demo/AkremApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-12-OneToOneAndOneToMany-mapping/src/main/java/com/akrem/demo/bootstraps/DataGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-12-OneToOneAndOneToMany-mapping/src/main/java/com/akrem/demo/enums/Status.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-12-OneToOneAndOneToMany-mapping/src/main/java/com/akrem/demo/model/BasedEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-12-OneToOneAndOneToMany-mapping/src/main/java/com/akrem/demo/model/Merchant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-12-OneToOneAndOneToMany-mapping/src/main/java/com/akrem/demo/model/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-12-OneToOneAndOneToMany-mapping/src/main/java/com/akrem/demo/model/PaymentDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-12-OneToOneAndOneToMany-mapping/src/main/java/com/akrem/demo/repository/MerchantRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-12-OneToOneAndOneToMany-mapping/src/main/java/com/akrem/demo/repository/PaymentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-12-OneToOneAndOneToMany-mapping/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-12-OneToOneAndOneToMany-mapping/src/test/java/com/akrem/demo/AkremApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ce2b3e8b-8fdb-4d8f-b069-2c51666ffe51.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ce2b3e8b-8fdb-4d8f-b069-2c51666ffe51/storage_v2/_src_/database/postgres.edMnLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ce2b3e8b-8fdb-4d8f-b069-2c51666ffe51/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ce2b3e8b-8fdb-4d8f-b069-2c51666ffe51/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ce2b3e8b-8fdb-4d8f-b069-2c51666ffe51/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-12-OneToOneAndOneToMany-mapping/src/main/java/com/akrem/demo/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-12-OneToOneAndOneToMany-mapping/src/main/java/com/akrem/demo/repository/CustomerRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/target/classes/com/Stereotype/Agile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/target/classes/com/Stereotype/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/target/classes/com/Stereotype/ConfigCourse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/target/classes/com/Stereotype/Java.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/target/classes/com/Stereotype/Selenium.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/target/classes/com/bean_annotation/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/target/classes/com/bean_annotation/ConfigAny.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/target/classes/com/bean_annotation/ConfigApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/target/classes/com/bean_annotation/FullTimeMentor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/target/classes/com/bean_annotation/PartTimeMentor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-02-Core-Wiring/target/classes/wiring/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-02-Core-Wiring/target/classes/wiring/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-02-Core-Wiring/target/classes/wiring/ConfigCar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-02-Core-Wiring/target/classes/wiring/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-03-core-DI/target/classes/com/akrem/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-03-core-DI/target/classes/com/akrem/ConfigApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-03-core-DI/target/classes/com/akrem/Java.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-03-core-DI/target/classes/com/akrem/OfficeHours.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-03-core-DI/target/classes/com/akrem/Selenium.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-04-Abstraction/target/classes/com/akrem/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-04-Abstraction/target/classes/com/akrem/config/ProjectConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-04-Abstraction/target/classes/com/akrem/model/Comment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-04-Abstraction/target/classes/com/akrem/proxy/CommentNotificationProxy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-04-Abstraction/target/classes/com/akrem/proxy/CommentPushNotificationProxy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-04-Abstraction/target/classes/com/akrem/proxy/EmailCommentNotificationProxy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-04-Abstraction/target/classes/com/akrem/repository/CommentRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-04-Abstraction/target/classes/com/akrem/repository/DBCommentRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-04-Abstraction/target/classes/com/akrem/serivce/CommentService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-05-core-BeanScope/target/classes/com/akrem/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-05-core-BeanScope/target/classes/com/akrem/config/ProjectConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-05-core-BeanScope/target/classes/com/akrem/model/Comment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-05-core-BeanScope/target/classes/com/akrem/proxy/CommentNotificationProxy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-05-core-BeanScope/target/classes/com/akrem/proxy/CommentPushNotificationProxy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-05-core-BeanScope/target/classes/com/akrem/proxy/EmailCommentNotificationProxy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-05-core-BeanScope/target/classes/com/akrem/repository/CommentRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-05-core-BeanScope/target/classes/com/akrem/repository/DBCommentRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-05-core-BeanScope/target/classes/com/akrem/serivce/CommentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-06-SpringBoot-Demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-06-SpringBoot-Demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-06-SpringBoot-Demo/src/main/java/com/akrem/model/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-06-SpringBoot-Demo/src/main/java/com/akrem/model/Comment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-12-OneToOneAndOneToMany-mapping/src/main/java/com/akrem/demo/bootstraps/DataGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-12-OneToOneAndOneToMany-mapping/src/main/java/com/akrem/demo/bootstraps/DataGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-12-OneToOneAndOneToMany-mapping/src/main/java/com/akrem/demo/model/Merchant.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-12-OneToOneAndOneToMany-mapping/src/main/java/com/akrem/demo/model/Merchant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-12-OneToOneAndOneToMany-mapping/src/main/java/com/akrem/demo/model/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-12-OneToOneAndOneToMany-mapping/src/main/java/com/akrem/demo/model/Payment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-12-OneToOneAndOneToMany-mapping/src/main/java/com/akrem/demo/model/PaymentDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-12-OneToOneAndOneToMany-mapping/src/main/java/com/akrem/demo/model/PaymentDetail.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +25,6 @@
   </component>
   <component name="DatabaseLocalColorSettings">
     <colors>
-      <entry key="00c39401-55ec-40f5-9501-abda22bb8704" value="Green" />
       <entry key="8f636816-1fa7-4d30-83c8-b9aff9bcba48" value="Green" />
     </colors>
   </component>
@@ -221,13 +163,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -503,7 +447,8 @@
       <workItem from="1687481451749" duration="282000" />
       <workItem from="1687481751498" duration="1055000" />
       <workItem from="1687482904235" duration="711000" />
-      <workItem from="1687631454981" duration="3660000" />
+      <workItem from="1687631454981" duration="5249000" />
+      <workItem from="1687740352337" duration="2183000" />
     </task>
     <task id="LOCAL-00001" summary="Spring-core-wiring">
       <created>1671397409260</created>
@@ -764,7 +709,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687480070459</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="ManyToOne and OneToMany">
+      <created>1687635283604</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1687635283604</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -801,7 +753,8 @@
     <MESSAGE value="ORM one to one mapping" />
     <MESSAGE value="@oneToMany" />
     <MESSAGE value="ORM one to one" />
-    <option name="LAST_COMMIT_MESSAGE" value="ORM one to one" />
+    <MESSAGE value="ManyToOne and OneToMany" />
+    <option name="LAST_COMMIT_MESSAGE" value="ManyToOne and OneToMany" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
