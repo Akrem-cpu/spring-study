@@ -5,12 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18f30876-6e01-438d-ad00-223757364b89" name="Changes" comment="BeanScope">
-      <change afterPath="$PROJECT_DIR$/Spring-12-OneToOneAndOneToMany-mapping/src/main/java/com/akrem/demo/model/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-12-OneToOneAndOneToMany-mapping/src/main/java/com/akrem/demo/model/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-12-OneToOneAndOneToMany-mapping/src/main/java/com/akrem/demo/repository/CartRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-12-OneToOneAndOneToMany-mapping/src/main/java/com/akrem/demo/repository/ItemRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-cenimalab/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-cenimalab/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-cenimalab/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-cenimalab/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-cenimalab/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-cenimalab/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-cenimalab/src/main/java/spring13cinemalab/demo/DemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-cenimalab/src/main/java/spring13cinemalab/demo/enitity/AccountDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-cenimalab/src/main/java/spring13cinemalab/demo/enitity/BaseEnitiy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-cenimalab/src/main/java/spring13cinemalab/demo/enitity/Cinema.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-cenimalab/src/main/java/spring13cinemalab/demo/enitity/Genre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-cenimalab/src/main/java/spring13cinemalab/demo/enitity/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-cenimalab/src/main/java/spring13cinemalab/demo/enitity/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-cenimalab/src/main/java/spring13cinemalab/demo/enitity/MovieCinema.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-cenimalab/src/main/java/spring13cinemalab/demo/enitity/Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-cenimalab/src/main/java/spring13cinemalab/demo/enitity/UserAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-cenimalab/src/main/java/spring13cinemalab/demo/enums/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-cenimalab/src/main/java/spring13cinemalab/demo/enums/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-cenimalab/src/main/java/spring13cinemalab/demo/enums/Type.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-cenimalab/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-cenimalab/src/main/resources/db/migration/V1.0.1__insertdate.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-cenimalab/src/test/java/spring13cinemalab/demo/DemoApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8f636816-1fa7-4d30-83c8-b9aff9bcba48.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8f636816-1fa7-4d30-83c8-b9aff9bcba48.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8f636816-1fa7-4d30-83c8-b9aff9bcba48/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8f636816-1fa7-4d30-83c8-b9aff9bcba48/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-12-OneToOneAndOneToMany-mapping/src/main/java/com/akrem/demo/bootstraps/DataGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-12-OneToOneAndOneToMany-mapping/src/main/java/com/akrem/demo/bootstraps/DataGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-12-OneToOneAndOneToMany-mapping/src/main/java/com/akrem/demo/repository/CartRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-12-OneToOneAndOneToMany-mapping/src/main/java/com/akrem/demo/repository/CartRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-12-OneToOneAndOneToMany-mapping/src/main/java/com/akrem/demo/repository/PaymentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-12-OneToOneAndOneToMany-mapping/src/main/java/com/akrem/demo/repository/PaymentRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +125,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8.0_231" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Spring-12-OneToOneAndOneToMany-mapping/src/main/java/com/akrem/demo/model" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Spring-13-cenimalab/src/main/java/spring13cinemalab/demo/enums" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15703125" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -109,11 +133,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\akrem\spring-study\Spring-13-cenimalab\src\main\java\spring13cinemalab\demo\enums" />
+      <recent name="C:\Users\akrem\spring-study\Spring-13-cenimalab\src\main\java\spring13cinemalab\demo\enum" />
+      <recent name="C:\Users\akrem\spring-study\Spring-13-cenimalab\src\main\java\spring13cinemalab\demo\enitity" />
       <recent name="C:\Users\akrem\spring-study\Spring-12-OneToOneAndOneToMany-mapping\src\main\java\com\akrem\demo\model" />
       <recent name="C:\Users\akrem\spring-study\Spring-12-OneToOneAndOneToMany-mapping\src\main\java\com\akrem\demo" />
-      <recent name="C:\Users\akrem\spring-study\employee-99-regisration-project\src\main\resources\templates\employee" />
-      <recent name="C:\Users\akrem\spring-study\employee-99-regisration-project\src\main\resources\templates" />
-      <recent name="C:\Users\akrem\spring-study\Spring-09-Spring-Thymeleaf\src\main\resources\static" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\akrem\spring-study\Spring-10-ORM-TableCreation\src\main\resources" />
@@ -133,7 +157,7 @@
       <recent name="com.akrem" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.AkremApplication (1)">
+  <component name="RunManager" selected="Spring Boot.DemoApplication (7)">
     <configuration name="AkremApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.akrem.demo.AkremApplication" />
       <module name="Spring-12-ORM-Mapping-oneToOneandManyToOne" />
@@ -156,19 +180,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -241,6 +252,13 @@
     <configuration name="DemoApplication (6)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="Spring-11-ORM-Mapping-OneTOOne" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication (7)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Spring-13-cenimalab" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="spring13cinemalab.demo.DemoApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -374,6 +392,7 @@
       <item itemvalue="Spring Boot.DemoApplication (6)" />
       <item itemvalue="Spring Boot.AkremApplication" />
       <item itemvalue="Spring Boot.AkremApplication (1)" />
+      <item itemvalue="Spring Boot.DemoApplication (7)" />
       <item itemvalue="Spring Boot.EmployeeRegisrationProjectApplication (2)" />
       <item itemvalue="Spring Boot.Spring11OrmMappingOneToOneApplication" />
     </list>
@@ -445,7 +464,16 @@
       <workItem from="1687481751498" duration="1055000" />
       <workItem from="1687482904235" duration="711000" />
       <workItem from="1687631454981" duration="5249000" />
-      <workItem from="1687740352337" duration="4122000" />
+      <workItem from="1687740352337" duration="4908000" />
+      <workItem from="1687838177457" duration="1917000" />
+      <workItem from="1688228926209" duration="224000" />
+      <workItem from="1688229305629" duration="10656000" />
+      <workItem from="1688954460551" duration="121000" />
+      <workItem from="1688955184930" duration="679000" />
+      <workItem from="1694371213288" duration="3940000" />
+      <workItem from="1694886841517" duration="6136000" />
+      <workItem from="1694963379461" duration="2911000" />
+      <workItem from="1695423269892" duration="1018000" />
     </task>
     <task id="LOCAL-00001" summary="Spring-core-wiring">
       <created>1671397409260</created>
@@ -720,7 +748,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687743984552</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Mapping">
+      <created>1687746300796</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1687746300796</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -759,7 +794,8 @@
     <MESSAGE value="ORM one to one" />
     <MESSAGE value="ManyToOne and OneToMany" />
     <MESSAGE value="Many to one and fetch type" />
-    <option name="LAST_COMMIT_MESSAGE" value="Many to one and fetch type" />
+    <MESSAGE value="Mapping" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mapping" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
