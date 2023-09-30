@@ -2,9 +2,10 @@ package akrem.demo.repository;
 
 import akrem.demo.entity.Region;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
-
+@Repository
 public interface RegionRepository extends JpaRepository<Region,Long> {
 
     //Display All regions in Canada

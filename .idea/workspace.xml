@@ -5,33 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18f30876-6e01-438d-ad00-223757364b89" name="Changes" comment="BeanScope">
-      <change afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries-workingcopy/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries-workingcopy/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries-workingcopy/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries-workingcopy/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries-workingcopy/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries-workingcopy/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries-workingcopy/src/main/java/com/example/demo/DemoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries-workingcopy/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries-workingcopy/src/test/java/com/example/demo/DemoApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/akrem/demo/boostrap/TestQ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/akrem/demo/enmus/Gender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/akrem/demo/entity/BaseEnitiy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/akrem/demo/entity/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/akrem/demo/entity/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/akrem/demo/entity/Region.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/akrem/demo/repository/EmployeeRepositoy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/akrem/demo/repository/RegionRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/resources/data.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8f636816-1fa7-4d30-83c8-b9aff9bcba48.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8f636816-1fa7-4d30-83c8-b9aff9bcba48.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8f636816-1fa7-4d30-83c8-b9aff9bcba48/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8f636816-1fa7-4d30-83c8-b9aff9bcba48/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/akrem/demo/repository/DepartmentRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-14-ORM-Queries/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/akrem/demo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/akrem/demo/DemoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/akrem/demo/boostrap/TestQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/akrem/demo/boostrap/TestQ.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/akrem/demo/repository/EmployeeRepositoy.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/akrem/demo/repository/EmployeeRepositoy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/akrem/demo/repository/RegionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/akrem/demo/repository/RegionRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,8 +52,8 @@
       <list>
         <option value="HTML File" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -500,7 +478,7 @@
       <workItem from="1695423269892" duration="1018000" />
       <workItem from="1695567072486" duration="12007000" />
       <workItem from="1695700841398" duration="277000" />
-      <workItem from="1696097713625" duration="4242000" />
+      <workItem from="1696097713625" duration="6751000" />
     </task>
     <task id="LOCAL-00001" summary="Spring-core-wiring">
       <created>1671397409260</created>
@@ -789,7 +767,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695568552378</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Queries">
+      <created>1696107009418</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1696107009418</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -830,7 +815,8 @@
     <MESSAGE value="Many to one and fetch type" />
     <MESSAGE value="Mapping" />
     <MESSAGE value="Back at it again" />
-    <option name="LAST_COMMIT_MESSAGE" value="Back at it again" />
+    <MESSAGE value="Queries" />
+    <option name="LAST_COMMIT_MESSAGE" value="Queries" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
