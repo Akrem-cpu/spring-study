@@ -15,12 +15,14 @@
         <module name="Spring-02-Core-Wiring" />
         <module name="Spring-08-Spring-MVC-Model" />
         <module name="Spring-04-Abstraction" />
+        <module name="Spring-14-ORM-Queries-workingcopy" />
         <module name="Spring-01-Core-IoC" />
         <module name="demo" />
         <module name="employee-99-regisration-project" />
         <module name="Spring-09-Spring-Thymeleaf" />
         <module name="Spring-06-SpringBoot-Demo" />
         <module name="demo (2)" />
+        <module name="Spring-14-ORM-Queries" />
         <module name="Spring-13-cenimalab" />
         <module name="demo (4)" />
         <module name="demo (3)" />
@@ -50,6 +52,8 @@
       <module name="Spring-12-ORM-Mapping-oneToOneandManyToOne" options="-parameters" />
       <module name="Spring-12-OneToOneAndOneToMany-mapping" options="-parameters" />
       <module name="Spring-13-cenimalab" options="-parameters" />
+      <module name="Spring-14-ORM-Queries" options="-parameters" />
+      <module name="Spring-14-ORM-Queries-workingcopy" options="-parameters" />
       <module name="demo" options="-parameters" />
       <module name="demo (1) (akrem)" options="-parameters" />
       <module name="demo (1) (com.akrem)" options="-parameters" />

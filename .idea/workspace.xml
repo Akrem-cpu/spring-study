@@ -5,36 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18f30876-6e01-438d-ad00-223757364b89" name="Changes" comment="BeanScope">
-      <change afterPath="$PROJECT_DIR$/Spring-13-cenimalab/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-13-cenimalab/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-13-cenimalab/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-13-cenimalab/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-13-cenimalab/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-13-cenimalab/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-13-cenimalab/src/main/java/spring13cinemalab/demo/DemoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-13-cenimalab/src/main/java/spring13cinemalab/demo/enitity/AccountDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-13-cenimalab/src/main/java/spring13cinemalab/demo/enitity/BaseEnitiy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-13-cenimalab/src/main/java/spring13cinemalab/demo/enitity/Cinema.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-13-cenimalab/src/main/java/spring13cinemalab/demo/enitity/Genre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-13-cenimalab/src/main/java/spring13cinemalab/demo/enitity/Location.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-13-cenimalab/src/main/java/spring13cinemalab/demo/enitity/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-13-cenimalab/src/main/java/spring13cinemalab/demo/enitity/MovieCinema.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-13-cenimalab/src/main/java/spring13cinemalab/demo/enitity/Ticket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-13-cenimalab/src/main/java/spring13cinemalab/demo/enitity/UserAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-13-cenimalab/src/main/java/spring13cinemalab/demo/enums/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-13-cenimalab/src/main/java/spring13cinemalab/demo/enums/State.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-13-cenimalab/src/main/java/spring13cinemalab/demo/enums/Type.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-13-cenimalab/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-13-cenimalab/src/main/resources/db/migration/V1.0.1__insertdate.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-13-cenimalab/src/test/java/spring13cinemalab/demo/DemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries-workingcopy/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries-workingcopy/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries-workingcopy/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries-workingcopy/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries-workingcopy/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries-workingcopy/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries-workingcopy/src/main/java/com/example/demo/DemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries-workingcopy/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries-workingcopy/src/test/java/com/example/demo/DemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/akrem/demo/boostrap/TestQ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/akrem/demo/enmus/Gender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/akrem/demo/entity/BaseEnitiy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/akrem/demo/entity/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/akrem/demo/entity/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/akrem/demo/entity/Region.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/akrem/demo/repository/EmployeeRepositoy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/akrem/demo/repository/RegionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/resources/data.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/8f636816-1fa7-4d30-83c8-b9aff9bcba48.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8f636816-1fa7-4d30-83c8-b9aff9bcba48.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/8f636816-1fa7-4d30-83c8-b9aff9bcba48/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8f636816-1fa7-4d30-83c8-b9aff9bcba48/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-12-OneToOneAndOneToMany-mapping/src/main/java/com/akrem/demo/repository/CartRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-12-OneToOneAndOneToMany-mapping/src/main/java/com/akrem/demo/repository/CartRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-12-OneToOneAndOneToMany-mapping/src/main/java/com/akrem/demo/repository/PaymentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-12-OneToOneAndOneToMany-mapping/src/main/java/com/akrem/demo/repository/PaymentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-14-ORM-Queries/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/akrem/demo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/akrem/demo/DemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,14 +147,14 @@
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="akrem.demo.entity" />
       <recent name="akrem.demo.model" />
       <recent name="akrem.demo.controller" />
       <recent name="com.akrem.service" />
       <recent name="com.akrem.model" />
-      <recent name="com.akrem" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.DemoApplication (7)">
+  <component name="RunManager" selected="Spring Boot.DemoApplication (8)">
     <configuration name="AkremApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.akrem.demo.AkremApplication" />
       <module name="Spring-12-ORM-Mapping-oneToOneandManyToOne" />
@@ -180,6 +177,17 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -259,6 +267,20 @@
     <configuration name="DemoApplication (7)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="Spring-13-cenimalab" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="spring13cinemalab.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication (8)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Spring-14-ORM-Queries" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="akrem.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication (9)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Spring-14-ORM-Queries-workingcopy" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -393,6 +415,8 @@
       <item itemvalue="Spring Boot.AkremApplication" />
       <item itemvalue="Spring Boot.AkremApplication (1)" />
       <item itemvalue="Spring Boot.DemoApplication (7)" />
+      <item itemvalue="Spring Boot.DemoApplication (8)" />
+      <item itemvalue="Spring Boot.DemoApplication (9)" />
       <item itemvalue="Spring Boot.EmployeeRegisrationProjectApplication (2)" />
       <item itemvalue="Spring Boot.Spring11OrmMappingOneToOneApplication" />
     </list>
@@ -474,6 +498,9 @@
       <workItem from="1694886841517" duration="6136000" />
       <workItem from="1694963379461" duration="2911000" />
       <workItem from="1695423269892" duration="1018000" />
+      <workItem from="1695567072486" duration="12007000" />
+      <workItem from="1695700841398" duration="277000" />
+      <workItem from="1696097713625" duration="4242000" />
     </task>
     <task id="LOCAL-00001" summary="Spring-core-wiring">
       <created>1671397409260</created>
@@ -755,7 +782,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687746300796</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Back at it again">
+      <created>1695568552378</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1695568552378</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -795,7 +829,8 @@
     <MESSAGE value="ManyToOne and OneToMany" />
     <MESSAGE value="Many to one and fetch type" />
     <MESSAGE value="Mapping" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mapping" />
+    <MESSAGE value="Back at it again" />
+    <option name="LAST_COMMIT_MESSAGE" value="Back at it again" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
