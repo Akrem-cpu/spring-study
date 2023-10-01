@@ -54,7 +54,8 @@ public class TestQ implements CommandLineRunner {
 
         System.err.println("--------------------Employee START--------------------------");
 
-        System.out.println(employeeRepositoy.findByFirstNameAndLastNameOrEmail("Berrie","Manueau","bmanueau0@dion.ne.jp"));
+        System.out.println(employeeRepositoy.getEmployeeDetail());
+        System.out.println(employeeRepositoy.getEmployeeSalary());
 
 
         System.err.println("--------------------Employee  END--------------------------");

@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18f30876-6e01-438d-ad00-223757364b89" name="Changes" comment="BeanScope">
-      <change afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/akrem/demo/repository/DepartmentRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/akrem/demo/boostrap/TestQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/akrem/demo/boostrap/TestQ.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/akrem/demo/repository/EmployeeRepositoy.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/akrem/demo/repository/EmployeeRepositoy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/akrem/demo/repository/RegionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/akrem/demo/repository/RegionRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,17 +153,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -478,7 +465,8 @@
       <workItem from="1695423269892" duration="1018000" />
       <workItem from="1695567072486" duration="12007000" />
       <workItem from="1695700841398" duration="277000" />
-      <workItem from="1696097713625" duration="6751000" />
+      <workItem from="1696097713625" duration="7748000" />
+      <workItem from="1696192215530" duration="369000" />
     </task>
     <task id="LOCAL-00001" summary="Spring-core-wiring">
       <created>1671397409260</created>
@@ -774,7 +762,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696107009418</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Queries">
+      <created>1696109608531</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1696109608531</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
