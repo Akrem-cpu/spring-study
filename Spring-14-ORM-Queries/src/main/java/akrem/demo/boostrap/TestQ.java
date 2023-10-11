@@ -1,5 +1,6 @@
 package akrem.demo.boostrap;
 
+import akrem.demo.repository.CourseRepository;
 import akrem.demo.repository.DepartmentRepository;
 import akrem.demo.repository.EmployeeRepositoy;
 import akrem.demo.repository.RegionRepository;
@@ -19,6 +20,9 @@ public class TestQ implements CommandLineRunner {
     private DepartmentRepository departmentRepository;
     @Autowired
     private EmployeeRepositoy employeeRepositoy;
+
+    @Autowired
+    private CourseRepository courseRepository;
 
     public TestQ(RegionRepository repository) {
         this.regionRepository = repository;
@@ -45,6 +49,7 @@ public class TestQ implements CommandLineRunner {
 //        System.out.println(departmentRepository.findByDepartment("Toys"));
 //        System.out.println(departmentRepository.findByDivisionEquals("Outdoors"));
 //        System.out.println(departmentRepository.findDistinctTop3ByDivisionContaining("Hea"));
+       System.out.println(departmentRepository.retrieveDepartmentByDivision("Furniture"));
 
 
 
@@ -60,12 +65,15 @@ public class TestQ implements CommandLineRunner {
 
         System.err.println("--------------------Employee  END--------------------------");
 
+        System.err.println("--------------------COURSE START--------------------------");
+
+        System.out.println(courseRepository.findByCategory("Spring"));
+        courseRepository.getBycategory("Spring").forEach(System.out::println);
+        System.out.println(courseRepository.existsByName("Rapid Spring Boot Application Development"));
+        System.out.println(courseRepository.countByCategory("Spring"));
 
 
-
-
-
-
+        System.err.println("--------------------COURSE  END--------------------------");
 
 
     }

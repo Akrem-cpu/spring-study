@@ -3,6 +3,7 @@ package akrem.demo.entity;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
