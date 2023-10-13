@@ -22,7 +22,7 @@ public class test implements CommandLineRunner {
         accountRepository.findAccountDetailsByAgeBetween(40, 70).forEach(System.err::println);
         accountRepository.findAccountDetailsByAddressContains("262").forEach(System.err::println);
         accountRepository.findAllByOrderByAgeAsc().forEach(System.err::println);*/
-        accountRepository.getAllUserAccountsWithAgeSorted().forEach(System.err::println);
+        accountRepository.getInfoContainAny("Brooklyn").forEach(System.err::println);
 
 
         System.err.println("------------------------------accountRepository---------------------------------");

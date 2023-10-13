@@ -3,10 +3,12 @@ package spring13cinemalab.demo.reposritory;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 import spring13cinemalab.demo.enitity.AccountDetails;
 import spring13cinemalab.demo.enums.Role;
 
+import javax.annotation.PreDestroy;
 import javax.transaction.Transactional;
 import java.util.List;
 import java.util.stream.Stream;
@@ -53,8 +55,13 @@ public interface AccountRepository extends JpaRepository<AccountDetails, Long> {
     // ------------------- Native QUERIES ------------------- //
 
     //Write a native query to read all accounts with an age lower than a specific value
+    @Query(value = "SELECT * FROM account_details where age < :age", nativeQuery = true)
+    List<AccountDetails> getAgeLowerThen(@Param("age") int age);
 
     //Write a native query to read all accounts that a specific value can be containable in the name, address, country, state city
+    @Query(value = "select * from account_details where city like CONCAT('%',:value ,'%') or address like CONCAT('%',:value ,'%') or  name like CONCAT('%',:value ,'%') or  state like CONCAT('%',:value ,'%') or  country like CONCAT('%',:value ,'%')", nativeQuery = true)
+    List<AccountDetails> getInfoContainAny(@Param("value") String value);
+
 
     //Write a native query to read all accounts with an age lower than a specific value
 
