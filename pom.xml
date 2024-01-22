@@ -15,6 +15,17 @@
         <module>Spring-04-Abstraction</module>
         <module>Spring-05-core-BeanScope</module>
         <module>Spring-06-SpringBoot-Demo</module>
+        <module>Spring-07-Spring-MVC-controller</module>
+        <module>Spring-08-Spring-MVC-Model</module>
+        <module>Spring-09-Spring-Thymeleaf</module>
+        <module>Spring-10-ORM-TableCreation</module>
+        <module>Spring-11-ORM-Mapping-OneTOOne</module>
+        <module>Spring-12-OneToOneAndOneToMany-mapping</module>
+        <module>Spring-13-cenimalab</module>
+        <module>Spring-14-ORM-Queries</module>
+        <module>employee-99-regisration-project</module>
+        <module>Spring-15-REST</module>
+        <module>Spring-16-REST-Jackson</module>
     </modules>
 
     <properties>
@@ -32,6 +43,7 @@
             <artifactId>lombok</artifactId>
             <version>1.18.24</version>
         </dependency>
+
     </dependencies>
 
 </project>

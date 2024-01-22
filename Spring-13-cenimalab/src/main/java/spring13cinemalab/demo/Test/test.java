@@ -1,31 +1,27 @@
 package spring13cinemalab.demo.Test;
 
+import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 import spring13cinemalab.demo.enums.Role;
 import spring13cinemalab.demo.reposritory.AccountRepository;
+import spring13cinemalab.demo.reposritory.CinemaRepository;
 
 @Component
 public class test implements CommandLineRunner {
     @Autowired
     AccountRepository accountRepository;
-
+    @Autowired
+    CinemaRepository cinemaRepository;
 
     @Override
     public void run(String... args) throws Exception {
-        System.err.println("------------------------------accountRepository---------------------------------");
+        System.err.println("------------------------------CinemaRepository---------------------------------");
 
-/*        accountRepository.findAccountDetailsByCountryOrState("United States", "akrem").forEach(System.out::println);
-        accountRepository.findAccountDetailsByAgeLessThanEqual(35).forEach(System.out::println);
-        accountRepository.findAccountDetailsByRoleEquals(Role.USER).forEach(System.err::println);
-        accountRepository.findAccountDetailsByAgeBetween(40, 70).forEach(System.err::println);
-        accountRepository.findAccountDetailsByAddressContains("262").forEach(System.err::println);
-        accountRepository.findAllByOrderByAgeAsc().forEach(System.err::println);*/
-        accountRepository.getInfoContainAny("Brooklyn").forEach(System.err::println);
+           cinemaRepository.findAllByNameEquals("Hall 2 - EMPIRE").forEach(System.err::println);
 
-
-        System.err.println("------------------------------accountRepository---------------------------------");
+        System.err.println("------------------------------CinemaRepository---------------------------------");
 
     }
 }

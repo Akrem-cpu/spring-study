@@ -8,28 +8,36 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Spring-07-Spring-MVC-controller" />
+        <module name="demo (10)" />
         <module name="Spring-05-core-BeanScope" />
-        <module name="Spring-03-core-DI" />
         <module name="Spring-11-ORM-Mapping-OneTOOne" />
         <module name="demo (5)" />
-        <module name="Spring-02-Core-Wiring" />
         <module name="Spring-08-Spring-MVC-Model" />
-        <module name="Spring-04-Abstraction" />
+        <module name="demo (7)" />
         <module name="Spring-14-ORM-Queries-workingcopy" />
-        <module name="Spring-01-Core-IoC" />
         <module name="demo" />
+        <module name="demo (6) (spring-10-ORM-TableCreation)" />
+        <module name="Spring-15-REST" />
+        <module name="Spring-16-REST-Jackson" />
         <module name="employee-99-regisration-project" />
-        <module name="Spring-09-Spring-Thymeleaf" />
         <module name="Spring-06-SpringBoot-Demo" />
         <module name="demo (2)" />
         <module name="Spring-14-ORM-Queries" />
         <module name="Spring-13-cenimalab" />
         <module name="demo (4)" />
+        <module name="employee-100-registartion-project" />
+        <module name="Spring-12-OneToOneAndOneToMany-mapping" />
+        <module name="Spring-03-core-DI" />
+        <module name="demo (11)" />
+        <module name="demo (9) (Spring-13Cinema-Lab)" />
+        <module name="Spring-02-Core-Wiring" />
+        <module name="Spring-04-Abstraction" />
+        <module name="Spring-01-Core-IoC" />
+        <module name="demo (8) (com.akrem)" />
+        <module name="Spring-09-Spring-Thymeleaf" />
         <module name="demo (3)" />
         <module name="demo (1) (akrem)" />
         <module name="Spring-10-ORM-TableCreation" />
-        <module name="employee-100-registartion-project" />
-        <module name="Spring-12-OneToOneAndOneToMany-mapping" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -54,13 +62,21 @@
       <module name="Spring-13-cenimalab" options="-parameters" />
       <module name="Spring-14-ORM-Queries" options="-parameters" />
       <module name="Spring-14-ORM-Queries-workingcopy" options="-parameters" />
+      <module name="Spring-15-REST" options="-parameters" />
+      <module name="Spring-16-REST-Jackson" options="-parameters" />
       <module name="demo" options="-parameters" />
       <module name="demo (1) (akrem)" options="-parameters" />
       <module name="demo (1) (com.akrem)" options="-parameters" />
+      <module name="demo (10)" options="-parameters" />
+      <module name="demo (11)" options="-parameters" />
       <module name="demo (2)" options="-parameters" />
       <module name="demo (3)" options="-parameters" />
       <module name="demo (4)" options="-parameters" />
       <module name="demo (5)" options="-parameters" />
+      <module name="demo (6) (spring-10-ORM-TableCreation)" options="-parameters" />
+      <module name="demo (7)" options="-parameters" />
+      <module name="demo (8) (com.akrem)" options="-parameters" />
+      <module name="demo (9) (Spring-13Cinema-Lab)" options="-parameters" />
       <module name="employee-100-registartion-project" options="-parameters" />
       <module name="employee-99-regisration-project" options="-parameters" />
       <module name="employee-regisration-project" options="-parameters" />

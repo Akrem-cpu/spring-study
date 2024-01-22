@@ -1,5 +1,6 @@
 package spring13cinemalab.demo.enitity;
 
+import lombok.Data;
 import lombok.ToString;
 import spring13cinemalab.demo.enums.Role;
 
@@ -10,6 +11,7 @@ import javax.persistence.OneToOne;
 
 @Entity
 @ToString
+@Data
 public class AccountDetails extends BaseEnitiy{
 
     private String name;

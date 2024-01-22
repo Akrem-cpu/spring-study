@@ -1,9 +1,12 @@
 package spring13cinemalab.demo.reposritory;
 
 
+import lombok.ToString;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 import spring13cinemalab.demo.enitity.Cinema;
+
+import java.util.List;
 
 @Repository
 public interface CinemaRepository extends JpaRepository<Cinema, Long> {
@@ -11,8 +14,10 @@ public interface CinemaRepository extends JpaRepository<Cinema, Long> {
     // ------------------- DERIVED QUERIES ------------------- //
 
     //Write a derived query to get cinema with a specific name
+     List<Cinema> findAllByNameEquals(String name);
 
     //Write a derived query to read sorted the top 3 cinemas that contains a specific sponsored name
+    List<Cinema> findTopBySponsoredName(String name);
 
     //Write a derived query to list all cinemas in a specific country
 
