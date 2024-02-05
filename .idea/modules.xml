@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Spring-12-ORM-Mapping-oneToOneandManyToOne/Spring-12-ORM-Mapping-oneToOneandManyToOne.iml" filepath="$PROJECT_DIR$/Spring-12-ORM-Mapping-oneToOneandManyToOne/Spring-12-ORM-Mapping-oneToOneandManyToOne.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-15-REST/Spring-15-REST.iml" filepath="$PROJECT_DIR$/Spring-15-REST/Spring-15-REST.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-16-REST-Jackson/Spring-16-REST-Jackson.iml" filepath="$PROJECT_DIR$/Spring-16-REST-Jackson/Spring-16-REST-Jackson.iml" />
     </modules>
   </component>
 </project>

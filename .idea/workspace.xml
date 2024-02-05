@@ -4,61 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18f30876-6e01-438d-ad00-223757364b89" name="Changes" comment="BeanScope">
-      <change afterPath="$PROJECT_DIR$/Spring-15-REST/Spring-15-REST.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-15-REST/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-15-REST/src/main/java/com/cydeo/Spring15RestApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-15-REST/src/main/java/com/cydeo/controller/CourseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-15-REST/src/main/java/com/cydeo/controller/CourseController_ResponseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-15-REST/src/main/java/com/cydeo/controller/CourseController_ResponseWrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-15-REST/src/main/java/com/cydeo/dto/CourseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-15-REST/src/main/java/com/cydeo/entity/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-15-REST/src/main/java/com/cydeo/entity/ResponseWrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-15-REST/src/main/java/com/cydeo/repository/CourseRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-15-REST/src/main/java/com/cydeo/service/CourseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-15-REST/src/main/java/com/cydeo/service/impl/CourseServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-15-REST/src/main/java/com/cydeo/util/MapperUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-15-REST/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-15-REST/src/main/resources/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-15-REST/src/test/java/com/cydeo/Spring15RestApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-16-REST-Jackson/Spring-16-REST-Jackson.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-16-REST-Jackson/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/java/com/cydeo/Spring16RestJacksonApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/java/com/cydeo/controller/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/java/com/cydeo/entity/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/java/com/cydeo/entity/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/java/com/cydeo/entity/Cinema.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/java/com/cydeo/entity/Genre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/java/com/cydeo/entity/Location.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/java/com/cydeo/entity/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/java/com/cydeo/entity/MovieCinema.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/java/com/cydeo/entity/Ticket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/java/com/cydeo/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/java/com/cydeo/enums/MovieState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/java/com/cydeo/enums/MovieType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/java/com/cydeo/enums/UserRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/java/com/cydeo/repository/AccountRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/java/com/cydeo/repository/CinemaRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/java/com/cydeo/repository/GenreRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/java/com/cydeo/repository/MovieCinemaRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/java/com/cydeo/repository/MovieRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/java/com/cydeo/repository/TicketRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/java/com/cydeo/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/resources/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/test/java/com/cydeo/Spring16RestJacksonApplicationTests.java" afterDir="false" />
+    <list default="true" id="18f30876-6e01-438d-ad00-223757364b89" name="Changes" comment="Rest">
+      <change afterPath="$PROJECT_DIR$/Spring-17-Rest-ConsumingAPis/src/main/java/com/example/spring17restconsumingapis/config/RestObjects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-17-Rest-ConsumingAPis/src/main/java/com/example/spring17restconsumingapis/controller/Consume_RestTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-17-Rest-ConsumingAPis/src/main/java/com/example/spring17restconsumingapis/dto/ReponseMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8f636816-1fa7-4d30-83c8-b9aff9bcba48.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8f636816-1fa7-4d30-83c8-b9aff9bcba48.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8f636816-1fa7-4d30-83c8-b9aff9bcba48/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8f636816-1fa7-4d30-83c8-b9aff9bcba48.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8f636816-1fa7-4d30-83c8-b9aff9bcba48/storage_v2/_src_/database/postgres.edMnLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8f636816-1fa7-4d30-83c8-b9aff9bcba48/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8f636816-1fa7-4d30-83c8-b9aff9bcba48/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8f636816-1fa7-4d30-83c8-b9aff9bcba48/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-13-cenimalab/src/main/java/spring13cinemalab/demo/Test/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-13-cenimalab/src/main/java/spring13cinemalab/demo/Test/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-13-cenimalab/src/main/java/spring13cinemalab/demo/enitity/AccountDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-13-cenimalab/src/main/java/spring13cinemalab/demo/enitity/AccountDetails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-13-cenimalab/src/main/java/spring13cinemalab/demo/enitity/Cinema.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-13-cenimalab/src/main/java/spring13cinemalab/demo/enitity/Cinema.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-13-cenimalab/src/main/java/spring13cinemalab/demo/enitity/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-13-cenimalab/src/main/java/spring13cinemalab/demo/enitity/Location.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-13-cenimalab/src/main/java/spring13cinemalab/demo/reposritory/CinemaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-13-cenimalab/src/main/java/spring13cinemalab/demo/reposritory/CinemaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-15-REST/Spring-15-REST.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-15-REST/Spring-15-REST.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-15-REST/src/main/java/com/cydeo/Spring15RestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-15-REST/src/main/java/com/cydeo/Spring15RestApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-15-REST/src/main/java/com/cydeo/controller/CourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-15-REST/src/main/java/com/cydeo/controller/CourseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-15-REST/src/main/java/com/cydeo/controller/CourseController_ResponseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-15-REST/src/main/java/com/cydeo/controller/CourseController_ResponseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-15-REST/src/main/java/com/cydeo/controller/CourseController_ResponseWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-15-REST/src/main/java/com/cydeo/controller/CourseController_ResponseWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-15-REST/src/main/java/com/cydeo/dto/CourseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-15-REST/src/main/java/com/cydeo/dto/CourseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-15-REST/src/main/java/com/cydeo/entity/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-15-REST/src/main/java/com/cydeo/entity/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-16-REST-Jackson/Spring-16-REST-Jackson.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-16-REST-Jackson/Spring-16-REST-Jackson.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,11 +38,6 @@
   </component>
   <component name="ComposerSettings">
     <execution />
-  </component>
-  <component name="DatabaseLocalColorSettings">
-    <colors>
-      <entry key="8f636816-1fa7-4d30-83c8-b9aff9bcba48" value="Green" />
-    </colors>
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$/Spring-06-SpringBoot-Demo">
@@ -125,9 +90,6 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
-  <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="69ef0d4d-c93b-4caa-9295-8a7074f1373e" />
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -143,36 +105,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Maven.spring-study [clean].executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.Spring15RestApplication.executor": "Run",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/akrem/spring-study",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.42988506",
-    "run.configurations.included.in.services": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven.spring-study [clean].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.Spring15RestApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Spring16RestJacksonApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Spring17RestConsumingAPisApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/akrem/spring-study&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.42988506&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\akrem\spring-study\Spring-13-cenimalab\src\main\java\spring13cinemalab\demo\reposritory" />
@@ -204,11 +169,10 @@
       <set>
         <option value="MicronautRunConfigurationType" />
         <option value="QuarkusRunConfigurationType" />
-        <option value="SpringBootApplicationConfigurationType" />
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Spring15RestApplication">
+  <component name="RunManager" selected="Spring Boot.Spring17RestConsumingAPisApplication">
     <configuration name="AkremApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.akrem.demo.AkremApplication" />
       <module name="Spring-12-ORM-Mapping-oneToOneandManyToOne" />
@@ -238,6 +202,84 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AkremApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="demo (8) (com.akrem)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.akrem.demo.AkremApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="demo (7)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="demo (9) (Spring-13Cinema-Lab)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="spring13cinemalab.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="demo (11)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="akrem.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication (4)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="demo (10)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="demo (2)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.akrem.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeRegisrationProjectApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="demo (1) (akrem)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="akrem.demo.EmployeeRegisrationProjectApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Spring07SpringMvcControllerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="demo (3)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.akrem.Spring07SpringMvcControllerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Spring08SpringMvcModelApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="demo (4)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.akrem.Spring08SpringMvcModelApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Spring09SpringThymeleafApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="demo (5)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.akrem.Spring09SpringThymeleafApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Spring10OrmTableCreationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="demo (6) (spring-10-ORM-TableCreation)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.akrem.Spring10OrmTableCreationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Spring15RestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="Spring-15-REST" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.cydeo.Spring15RestApplication" />
@@ -251,13 +293,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Spring16RestJacksonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Spring-16-REST-Jackson" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cydeo.Spring16RestJacksonApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Spring17RestConsumingAPisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Spring-17-Rest-ConsumingAPis" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.spring17restconsumingapis.Spring17RestConsumingAPisApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.AkremApplication" />
       <item itemvalue="JUnit.DemoApplicationTests.contextLoads" />
+      <item itemvalue="Spring Boot.AkremApplication" />
+      <item itemvalue="Spring Boot.DemoApplication" />
+      <item itemvalue="Spring Boot.DemoApplication (1)" />
+      <item itemvalue="Spring Boot.DemoApplication (2)" />
+      <item itemvalue="Spring Boot.DemoApplication (3)" />
+      <item itemvalue="Spring Boot.DemoApplication (4)" />
+      <item itemvalue="Spring Boot.EmployeeRegisrationProjectApplication" />
+      <item itemvalue="Spring Boot.Spring07SpringMvcControllerApplication" />
+      <item itemvalue="Spring Boot.Spring08SpringMvcModelApplication" />
+      <item itemvalue="Spring Boot.Spring09SpringThymeleafApplication" />
+      <item itemvalue="Spring Boot.Spring10OrmTableCreationApplication" />
+      <item itemvalue="Spring Boot.Spring17RestConsumingAPisApplication" />
+      <item itemvalue="Spring Boot.Spring16RestJacksonApplication" />
       <item itemvalue="Spring Boot.Spring15RestApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.Spring16RestJacksonApplication" />
         <item itemvalue="Spring Boot.Spring15RestApplication" />
         <item itemvalue="Application.AkremApplication" />
         <item itemvalue="JUnit.DemoApplicationTests.contextLoads" />
@@ -268,6 +344,7 @@
     <attachedChunks>
       <set>
         <option value="jdk-11.0.21-corretto-11.0.21-3183f394aec4-d55de845" />
+        <option value="jdk-17.0.10-corretto-17.0.10-3183f394aec4-cf227e86" />
       </set>
     </attachedChunks>
   </component>
@@ -355,7 +432,13 @@
       <workItem from="1705878845194" duration="710000" />
       <workItem from="1705879567628" duration="267000" />
       <workItem from="1705879858102" duration="823000" />
-      <workItem from="1705880704037" duration="3986000" />
+      <workItem from="1705880704037" duration="6847000" />
+      <workItem from="1706385211483" duration="6369000" />
+      <workItem from="1706496205095" duration="849000" />
+      <workItem from="1706578808113" duration="2862000" />
+      <workItem from="1706673651617" duration="2831000" />
+      <workItem from="1706763498712" duration="1876000" />
+      <workItem from="1707082135905" duration="6559000" />
     </task>
     <task id="LOCAL-00001" summary="Spring-core-wiring">
       <created>1671397409260</created>
@@ -686,7 +769,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697159638520</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Rest">
+      <option name="closed" value="true" />
+      <created>1705887947776</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1705887947776</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -709,7 +800,6 @@
     <MESSAGE value="Abstraction" />
     <MESSAGE value="@Qualifier" />
     <MESSAGE value="Spring boot Demo" />
-    <MESSAGE value="BeanScope" />
     <MESSAGE value="fix" />
     <MESSAGE value="Spring Boot Demo" />
     <MESSAGE value="MVC controller" />
@@ -729,7 +819,9 @@
     <MESSAGE value="Queries" />
     <MESSAGE value="Quires" />
     <MESSAGE value="Quires practice" />
-    <option name="LAST_COMMIT_MESSAGE" value="Quires practice" />
+    <MESSAGE value="BeanScope" />
+    <MESSAGE value="Rest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rest" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -748,6 +840,11 @@
           <url>file://$PROJECT_DIR$/Spring-10-ORM-TableCreation/src/main/java/com/akrem/entity/Students.java</url>
           <line>10</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Spring-17-Rest-ConsumingAPis/src/main/java/com/example/spring17restconsumingapis/controller/Consume_RestTemplate.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
