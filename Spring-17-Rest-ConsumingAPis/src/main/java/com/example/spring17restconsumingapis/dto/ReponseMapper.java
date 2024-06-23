@@ -9,17 +9,17 @@ import org.springframework.stereotype.Component;
 @Data
 @NoArgsConstructor
 @JsonPropertyOrder(
-        { "infoOrigen", "code" , "user"}
+        { "infoOrigen", "code" ,"data" }
 )
 
 public class ReponseMapper {
 
-    User [] user;
+    Object data;
     String infoOrigen;
     String code;
 
-    public ReponseMapper(User[] user, String infoOrigen, String code) {
-        this.user = user;
+    public ReponseMapper(Object data, String infoOrigen, String code) {
+        this.data = data;
         this.infoOrigen = infoOrigen;
         this.code = code;
     }

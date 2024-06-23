@@ -22,7 +22,6 @@
         <module name="Spring-16-REST-Jackson" />
         <module name="employee-99-regisration-project" />
         <module name="Spring-06-SpringBoot-Demo" />
-        <module name="demo (2)" />
         <module name="Spring-14-ORM-Queries" />
         <module name="Spring-13-cenimalab" />
         <module name="demo (4)" />
@@ -32,13 +31,22 @@
         <module name="demo (11)" />
         <module name="demo (9) (Spring-13Cinema-Lab)" />
         <module name="Spring-02-Core-Wiring" />
+        <module name="Spring-18-REST-OpenApi3" />
         <module name="Spring-04-Abstraction" />
         <module name="Spring-01-Core-IoC" />
         <module name="demo (8) (com.akrem)" />
         <module name="Spring-09-Spring-Thymeleaf" />
         <module name="demo (3)" />
+        <module name="Spring-19-REST-Security-Keycloak-OrganizationsApp" />
+        <module name="Spring-19-REST-Security-Keycloak-LicenseApp" />
         <module name="demo (1) (akrem)" />
         <module name="Spring-10-ORM-TableCreation" />
+      </profile>
+      <profile name="Annotation profile for spring-study" enabled="true">
+        <sourceOutputDir name="../Spring-08-Spring-MVC-Model/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../Spring-08-Spring-MVC-Model/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="demo (2)" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -66,6 +74,9 @@
       <module name="Spring-15-REST" options="-parameters" />
       <module name="Spring-16-REST-Jackson" options="-parameters" />
       <module name="Spring-17-Rest-ConsumingAPis" options="-parameters" />
+      <module name="Spring-18-REST-OpenApi3" options="-parameters" />
+      <module name="Spring-19-REST-Security-Keycloak-LicenseApp" options="-parameters" />
+      <module name="Spring-19-REST-Security-Keycloak-OrganizationsApp" options="-parameters" />
       <module name="demo" options="-parameters" />
       <module name="demo (1) (akrem)" options="-parameters" />
       <module name="demo (1) (com.akrem)" options="-parameters" />

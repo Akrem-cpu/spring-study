@@ -27,7 +27,7 @@ public class Consume_RestTemplate {
     public ResponseEntity<ReponseMapper> getUsers(){
 
         User[] responseEntity = restTemplate.getForEntity(URI,User[].class).getBody();
-        ReponseMapper body = new ReponseMapper(responseEntity,"this info is coming from endpoint: -"+URI,"cd-99");
+        ReponseMapper body = new ReponseMapper(responseEntity,"this info is coming from endpoint:- RestTemplate ","cd-99");
         return ResponseEntity.status(HttpStatus.OK)
                 .body(body);
     }

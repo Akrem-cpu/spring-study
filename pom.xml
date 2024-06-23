@@ -27,6 +27,9 @@
         <module>Spring-15-REST</module>
         <module>Spring-16-REST-Jackson</module>
         <module>Spring-17-Rest-ConsumingAPis</module>
+        <module>Spring-18-REST-OpenApi3</module>
+        <module>Spring-19-REST-Security-Keycloak-LicenseApp</module>
+        <module>Spring-19-REST-Security-Keycloak-OrganizationsApp</module>
     </modules>
 
     <properties>
