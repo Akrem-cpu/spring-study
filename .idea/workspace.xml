@@ -5,117 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18f30876-6e01-438d-ad00-223757364b89" name="Changes" comment="Rest">
-      <change afterPath="$PROJECT_DIR$/Spring-17-Rest-ConsumingAPis/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-17-Rest-ConsumingAPis/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-17-Rest-ConsumingAPis/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-17-Rest-ConsumingAPis/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-17-Rest-ConsumingAPis/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-17-Rest-ConsumingAPis/src/main/java/com/example/spring17restconsumingapis/Spring17RestConsumingAPisApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-17-Rest-ConsumingAPis/src/main/java/com/example/spring17restconsumingapis/client/EmployeeClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-17-Rest-ConsumingAPis/src/main/java/com/example/spring17restconsumingapis/client/UserClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-17-Rest-ConsumingAPis/src/main/java/com/example/spring17restconsumingapis/controller/Consume_FeignClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-17-Rest-ConsumingAPis/src/main/java/com/example/spring17restconsumingapis/controller/Consume_WebClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-17-Rest-ConsumingAPis/src/main/java/com/example/spring17restconsumingapis/dto/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-17-Rest-ConsumingAPis/src/main/java/com/example/spring17restconsumingapis/dto/Company.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-17-Rest-ConsumingAPis/src/main/java/com/example/spring17restconsumingapis/dto/Datum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-17-Rest-ConsumingAPis/src/main/java/com/example/spring17restconsumingapis/dto/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-17-Rest-ConsumingAPis/src/main/java/com/example/spring17restconsumingapis/dto/Geo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-17-Rest-ConsumingAPis/src/main/java/com/example/spring17restconsumingapis/dto/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-17-Rest-ConsumingAPis/src/main/java/com/example/spring17restconsumingapis/enitity/AccountDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-17-Rest-ConsumingAPis/src/main/java/com/example/spring17restconsumingapis/enitity/BaseEnitiy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-17-Rest-ConsumingAPis/src/main/java/com/example/spring17restconsumingapis/enitity/Cinema.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-17-Rest-ConsumingAPis/src/main/java/com/example/spring17restconsumingapis/enitity/Genre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-17-Rest-ConsumingAPis/src/main/java/com/example/spring17restconsumingapis/enitity/Location.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-17-Rest-ConsumingAPis/src/main/java/com/example/spring17restconsumingapis/enitity/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-17-Rest-ConsumingAPis/src/main/java/com/example/spring17restconsumingapis/enitity/MovieCinema.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-17-Rest-ConsumingAPis/src/main/java/com/example/spring17restconsumingapis/enitity/Ticket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-17-Rest-ConsumingAPis/src/main/java/com/example/spring17restconsumingapis/enitity/UserAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-17-Rest-ConsumingAPis/src/main/java/com/example/spring17restconsumingapis/enums/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-17-Rest-ConsumingAPis/src/main/java/com/example/spring17restconsumingapis/enums/State.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-17-Rest-ConsumingAPis/src/main/java/com/example/spring17restconsumingapis/enums/Type.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-17-Rest-ConsumingAPis/src/main/java/com/example/spring17restconsumingapis/repository/AccountRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-17-Rest-ConsumingAPis/src/main/java/com/example/spring17restconsumingapis/repository/CinemaRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-17-Rest-ConsumingAPis/src/main/java/com/example/spring17restconsumingapis/repository/GenreRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-17-Rest-ConsumingAPis/src/main/java/com/example/spring17restconsumingapis/repository/MovieCinemaRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-17-Rest-ConsumingAPis/src/main/java/com/example/spring17restconsumingapis/repository/MovieRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-17-Rest-ConsumingAPis/src/main/java/com/example/spring17restconsumingapis/repository/TicketRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-17-Rest-ConsumingAPis/src/main/java/com/example/spring17restconsumingapis/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-17-Rest-ConsumingAPis/src/main/main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-17-Rest-ConsumingAPis/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-17-Rest-ConsumingAPis/src/main/resources/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-17-Rest-ConsumingAPis/src/test/java/com/cydeo/Spring17RestConsumingApisApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-18-REST-OpenApi3/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-18-REST-OpenApi3/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-18-REST-OpenApi3/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-18-REST-OpenApi3/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-18-REST-OpenApi3/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-18-REST-OpenApi3/src/main/java/com/cydeo/Spring18RestOpenApi3Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-18-REST-OpenApi3/src/main/java/com/cydeo/controller/CinemaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-18-REST-OpenApi3/src/main/java/com/cydeo/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-18-REST-OpenApi3/src/main/java/com/cydeo/entity/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-18-REST-OpenApi3/src/main/java/com/cydeo/entity/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-18-REST-OpenApi3/src/main/java/com/cydeo/entity/Cinema.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-18-REST-OpenApi3/src/main/java/com/cydeo/entity/Genre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-18-REST-OpenApi3/src/main/java/com/cydeo/entity/Location.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-18-REST-OpenApi3/src/main/java/com/cydeo/entity/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-18-REST-OpenApi3/src/main/java/com/cydeo/entity/MovieCinema.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-18-REST-OpenApi3/src/main/java/com/cydeo/entity/Ticket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-18-REST-OpenApi3/src/main/java/com/cydeo/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-18-REST-OpenApi3/src/main/java/com/cydeo/enums/MovieState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-18-REST-OpenApi3/src/main/java/com/cydeo/enums/MovieType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-18-REST-OpenApi3/src/main/java/com/cydeo/enums/UserRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-18-REST-OpenApi3/src/main/java/com/cydeo/repository/AccountRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-18-REST-OpenApi3/src/main/java/com/cydeo/repository/CinemaRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-18-REST-OpenApi3/src/main/java/com/cydeo/repository/GenreRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-18-REST-OpenApi3/src/main/java/com/cydeo/repository/MovieCinemaRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-18-REST-OpenApi3/src/main/java/com/cydeo/repository/MovieRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-18-REST-OpenApi3/src/main/java/com/cydeo/repository/TicketRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-18-REST-OpenApi3/src/main/java/com/cydeo/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-18-REST-OpenApi3/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-18-REST-OpenApi3/src/main/resources/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-18-REST-OpenApi3/src/test/java/com/cydeo/Spring18RestOpenApi3ApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-LicenseApp/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-LicenseApp/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-LicenseApp/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-LicenseApp/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-LicenseApp/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-LicenseApp/src/main/java/com/cydeo/Spring19RestSecurityKeycloakLicenseAppApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-LicenseApp/src/main/java/com/cydeo/client/OrganizationFeignClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-LicenseApp/src/main/java/com/cydeo/client/OrganizationRestTemplateClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-LicenseApp/src/main/java/com/cydeo/config/FeignClientInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-LicenseApp/src/main/java/com/cydeo/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-LicenseApp/src/main/java/com/cydeo/controller/LicenseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-LicenseApp/src/main/java/com/cydeo/model/License.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-LicenseApp/src/main/java/com/cydeo/model/Organization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-LicenseApp/src/main/java/com/cydeo/repository/LicenseRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-LicenseApp/src/main/java/com/cydeo/service/LicenseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-LicenseApp/src/main/java/com/cydeo/service/impl/LicenseServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-LicenseApp/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-LicenseApp/src/test/java/com/cydeo/Spring19RestSecurityKeycloakLicenseAppApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/src/main/java/com/cydeo/Spring19RestSecurityKeycloakOrganizationsAppApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/src/main/java/com/cydeo/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/src/main/java/com/cydeo/controller/OrganizationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/src/main/java/com/cydeo/model/Organization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/src/main/java/com/cydeo/repository/OrganizationRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/src/main/java/com/cydeo/service/OrganizationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/src/main/java/com/cydeo/service/impl/OrganizationServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/src/test/java/com/cydeo/Spring19RestSecurityKeycloakOrganizationsAppApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-20-AOP/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-20-AOP/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-20-AOP/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-20-AOP/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-20-AOP/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-20-AOP/src/main/java/com/cydeo/Spring20AopApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-20-AOP/src/main/java/com/cydeo/annotation/Loggable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-20-AOP/src/main/java/com/cydeo/aspect/LoggingAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-20-AOP/src/main/java/com/cydeo/controller/CourseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-20-AOP/src/main/java/com/cydeo/dto/CourseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-20-AOP/src/main/java/com/cydeo/entity/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-20-AOP/src/main/java/com/cydeo/repository/CourseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-20-AOP/src/main/java/com/cydeo/service/CourseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-20-AOP/src/main/java/com/cydeo/service/impl/CourseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-20-AOP/src/main/java/com/cydeo/util/MapperUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-20-AOP/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-20-AOP/src/main/resources/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-20-AOP/src/test/java/com/cydeo/Spring20AopApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-17-Rest-ConsumingAPis/src/main/java/com/example/spring17restconsumingapis/config/RestObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-17-Rest-ConsumingAPis/src/main/java/com/example/spring17restconsumingapis/config/RestObjects.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-17-Rest-ConsumingAPis/src/main/java/com/example/spring17restconsumingapis/controller/Consume_RestTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-17-Rest-ConsumingAPis/src/main/java/com/example/spring17restconsumingapis/controller/Consume_RestTemplate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-17-Rest-ConsumingAPis/src/main/java/com/example/spring17restconsumingapis/dto/ReponseMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-17-Rest-ConsumingAPis/src/main/java/com/example/spring17restconsumingapis/dto/ReponseMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -224,8 +134,9 @@
     "Spring Boot.Spring16RestJacksonApplication.executor": "Run",
     "Spring Boot.Spring17RestConsumingAPisApplication.executor": "Run",
     "Spring Boot.Spring18RestOpenApi3Application.executor": "Run",
-    "Spring Boot.Spring19RestSecurityKeycloakLicenseAppApplication.executor": "Debug",
+    "Spring Boot.Spring19RestSecurityKeycloakLicenseAppApplication.executor": "Run",
     "Spring Boot.Spring19RestSecurityKeycloakOrganizationsAppApplication.executor": "Debug",
+    "Spring Boot.Spring20AopApplication.executor": "Debug",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "11",
     "kotlin-language-version-configured": "true",
@@ -252,11 +163,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\akrem\spring-study" />
       <recent name="C:\Users\akrem\spring-study\Spring-17-Rest-ConsumingAPis\src" />
       <recent name="C:\Users\akrem\spring-study\Spring-17-Rest-ConsumingAPis\src\main\java\com\example\spring17restconsumingapis\repository" />
       <recent name="C:\Users\akrem\spring-study\Spring-17-Rest-ConsumingAPis\src\main\resources" />
       <recent name="C:\Users\akrem\spring-study\Spring-17-Rest-ConsumingAPis\src\main\java\com\example\spring17restconsumingapis\enums" />
-      <recent name="C:\Users\akrem\spring-study\Spring-17-Rest-ConsumingAPis\src\main\java\com\example\spring17restconsumingapis\enitity" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\akrem\spring-study\Spring-13-cenimalab\src\main\resources" />
@@ -284,7 +195,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Spring19RestSecurityKeycloakLicenseAppApplication">
+  <component name="RunManager" selected="Spring Boot.Spring20AopApplication">
     <configuration name="AkremApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.akrem.demo.AkremApplication" />
       <module name="Spring-12-ORM-Mapping-oneToOneandManyToOne" />
@@ -474,28 +385,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Spring20AopApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Spring-20-AOP" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cydeo.Spring20AopApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.AkremApplication" />
       <item itemvalue="JUnit.DemoApplicationTests.contextLoads" />
-      <item itemvalue="Spring Boot.Spring19RestSecurityKeycloakLicenseAppApplication" />
-      <item itemvalue="Spring Boot.Spring19RestSecurityKeycloakOrganizationsAppApplication" />
-      <item itemvalue="Spring Boot.Spring08SpringMvcModelApplication (1)" />
-      <item itemvalue="Spring Boot.Spring18RestOpenApi3Application" />
-      <item itemvalue="Spring Boot.DemoApplication (6)" />
-      <item itemvalue="Spring Boot.Spring07SpringMvcControllerApplication (1)" />
+      <item itemvalue="Spring Boot.Spring20AopApplication" />
       <item itemvalue="Spring Boot.AkremApplication" />
       <item itemvalue="Spring Boot.DemoApplication (1)" />
       <item itemvalue="Spring Boot.DemoApplication (2)" />
       <item itemvalue="Spring Boot.DemoApplication (3)" />
       <item itemvalue="Spring Boot.DemoApplication (4)" />
       <item itemvalue="Spring Boot.DemoApplication (5)" />
+      <item itemvalue="Spring Boot.DemoApplication (6)" />
       <item itemvalue="Spring Boot.DemoApplication" />
       <item itemvalue="Spring Boot.EmployeeRegisrationProjectApplication" />
+      <item itemvalue="Spring Boot.Spring07SpringMvcControllerApplication (1)" />
       <item itemvalue="Spring Boot.Spring07SpringMvcControllerApplication" />
+      <item itemvalue="Spring Boot.Spring08SpringMvcModelApplication (1)" />
       <item itemvalue="Spring Boot.Spring08SpringMvcModelApplication" />
       <item itemvalue="Spring Boot.Spring09SpringThymeleafApplication" />
       <item itemvalue="Spring Boot.Spring10OrmTableCreationApplication" />
       <item itemvalue="Spring Boot.Spring17RestConsumingAPisApplication" />
+      <item itemvalue="Spring Boot.Spring18RestOpenApi3Application" />
+      <item itemvalue="Spring Boot.Spring19RestSecurityKeycloakLicenseAppApplication" />
+      <item itemvalue="Spring Boot.Spring19RestSecurityKeycloakOrganizationsAppApplication" />
       <item itemvalue="Spring Boot.Spring15RestApplication" />
       <item itemvalue="Spring Boot.Spring16RestJacksonApplication" />
     </list>
@@ -633,7 +552,21 @@
       <workItem from="1718240693207" duration="2744000" />
       <workItem from="1718845174663" duration="1518000" />
       <workItem from="1719093872013" duration="1153000" />
-      <workItem from="1719105528397" duration="1487000" />
+      <workItem from="1719105528397" duration="2336000" />
+      <workItem from="1719169024102" duration="616000" />
+      <workItem from="1719191433440" duration="22000" />
+      <workItem from="1720400463399" duration="10000" />
+      <workItem from="1720402048503" duration="7000" />
+      <workItem from="1720403780086" duration="248000" />
+      <workItem from="1721586604619" duration="480000" />
+      <workItem from="1723157851278" duration="974000" />
+      <workItem from="1724011045955" duration="18000" />
+      <workItem from="1724610379196" duration="1357000" />
+      <workItem from="1725223311778" duration="1389000" />
+      <workItem from="1725313829135" duration="1679000" />
+      <workItem from="1725832610366" duration="3236000" />
+      <workItem from="1726287826090" duration="16000" />
+      <workItem from="1727637366225" duration="922000" />
     </task>
     <task id="LOCAL-00001" summary="Spring-core-wiring">
       <created>1671397409260</created>
@@ -964,14 +897,6 @@
       <option name="project" value="LOCAL" />
       <updated>1697159638520</updated>
     </task>
-    <task id="LOCAL-00048" summary="Rest">
-      <option name="closed" value="true" />
-      <created>1705887947776</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1705887947776</updated>
-    </task>
     <task id="LOCAL-00049" summary="Rest">
       <option name="closed" value="true" />
       <created>1707098384941</created>
@@ -980,7 +905,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707098384941</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Rest">
+      <option name="closed" value="true" />
+      <created>1719109275942</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1719109275942</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1053,6 +986,26 @@
           <url>file://$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/src/main/java/com/cydeo/controller/OrganizationController.java</url>
           <line>30</line>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Spring-20-AOP/src/main/java/com/cydeo/aspect/LoggingAspect.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Spring-20-AOP/src/main/java/com/cydeo/aspect/LoggingAspect.java</url>
+          <line>99</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Spring-20-AOP/src/main/java/com/cydeo/aspect/LoggingAspect.java</url>
+          <line>95</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Spring-20-AOP/src/main/java/com/cydeo/aspect/LoggingAspect.java</url>
+          <line>96</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

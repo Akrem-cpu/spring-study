@@ -25,6 +25,7 @@
         <module name="Spring-14-ORM-Queries" />
         <module name="Spring-13-cenimalab" />
         <module name="demo (4)" />
+        <module name="Spring-20-AOP" />
         <module name="employee-100-registartion-project" />
         <module name="Spring-12-OneToOneAndOneToMany-mapping" />
         <module name="Spring-03-core-DI" />
@@ -77,6 +78,7 @@
       <module name="Spring-18-REST-OpenApi3" options="-parameters" />
       <module name="Spring-19-REST-Security-Keycloak-LicenseApp" options="-parameters" />
       <module name="Spring-19-REST-Security-Keycloak-OrganizationsApp" options="-parameters" />
+      <module name="Spring-20-AOP" options="-parameters" />
       <module name="demo" options="-parameters" />
       <module name="demo (1) (akrem)" options="-parameters" />
       <module name="demo (1) (com.akrem)" options="-parameters" />
