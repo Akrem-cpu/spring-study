@@ -4,30 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18f30876-6e01-438d-ad00-223757364b89" name="Changes" comment="Rest">
-      <change afterPath="$PROJECT_DIR$/Spring-20-AOP/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-20-AOP/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-20-AOP/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-20-AOP/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-20-AOP/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-20-AOP/src/main/java/com/cydeo/Spring20AopApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-20-AOP/src/main/java/com/cydeo/annotation/Loggable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-20-AOP/src/main/java/com/cydeo/aspect/LoggingAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-20-AOP/src/main/java/com/cydeo/controller/CourseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-20-AOP/src/main/java/com/cydeo/dto/CourseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-20-AOP/src/main/java/com/cydeo/entity/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-20-AOP/src/main/java/com/cydeo/repository/CourseRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-20-AOP/src/main/java/com/cydeo/service/CourseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-20-AOP/src/main/java/com/cydeo/service/impl/CourseServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-20-AOP/src/main/java/com/cydeo/util/MapperUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-20-AOP/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-20-AOP/src/main/resources/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-20-AOP/src/test/java/com/cydeo/Spring20AopApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="18f30876-6e01-438d-ad00-223757364b89" name="Changes" comment="Rest" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -566,7 +543,7 @@
       <workItem from="1725313829135" duration="1679000" />
       <workItem from="1725832610366" duration="3236000" />
       <workItem from="1726287826090" duration="16000" />
-      <workItem from="1727637366225" duration="922000" />
+      <workItem from="1727637366225" duration="1419000" />
     </task>
     <task id="LOCAL-00001" summary="Spring-core-wiring">
       <created>1671397409260</created>
@@ -897,23 +874,23 @@
       <option name="project" value="LOCAL" />
       <updated>1697159638520</updated>
     </task>
-    <task id="LOCAL-00049" summary="Rest">
+    <task id="LOCAL-00051" summary="Rest">
       <option name="closed" value="true" />
-      <created>1707098384941</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
+      <created>1727638762144</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
       <option name="project" value="LOCAL" />
-      <updated>1707098384941</updated>
+      <updated>1727638762144</updated>
     </task>
-    <task id="LOCAL-00050" summary="Rest">
+    <task id="LOCAL-00052" summary="Rest">
       <option name="closed" value="true" />
-      <created>1719109275942</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
+      <created>1727638780212</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
       <option name="project" value="LOCAL" />
-      <updated>1719109275942</updated>
+      <updated>1727638780212</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
