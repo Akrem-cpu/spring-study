@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <directory url="file://$PROJECT_DIR$/Spring-21-UnitTesting-JUnit5/src/main/resources/archetype-resources" includeSubdirectories="true" />
+    </excludeFromCompile>
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Spring-21-UnitTesting-JUnit5" />
         <module name="Spring-07-Spring-MVC-controller" />
         <module name="demo (10)" />
+        <module name="Spring-22-UnitTesting-Mockito" />
         <module name="Spring-05-core-BeanScope" />
         <module name="Spring-11-ORM-Mapping-OneTOOne" />
         <module name="demo (5)" />
@@ -16,20 +21,20 @@
         <module name="demo (7)" />
         <module name="Spring-17-Rest-ConsumingAPis" />
         <module name="Spring-14-ORM-Queries-workingcopy" />
-        <module name="demo" />
         <module name="demo (6) (spring-10-ORM-TableCreation)" />
         <module name="Spring-15-REST" />
         <module name="Spring-16-REST-Jackson" />
         <module name="employee-99-regisration-project" />
         <module name="Spring-06-SpringBoot-Demo" />
         <module name="Spring-14-ORM-Queries" />
+        <module name="demo (2)" />
         <module name="Spring-13-cenimalab" />
         <module name="demo (4)" />
         <module name="Spring-20-AOP" />
         <module name="employee-100-registartion-project" />
         <module name="Spring-12-OneToOneAndOneToMany-mapping" />
+        <module name="Spring-17-REST-ConsumingApis" />
         <module name="Spring-03-core-DI" />
-        <module name="demo (11)" />
         <module name="demo (9) (Spring-13Cinema-Lab)" />
         <module name="Spring-02-Core-Wiring" />
         <module name="Spring-18-REST-OpenApi3" />
@@ -37,26 +42,22 @@
         <module name="Spring-01-Core-IoC" />
         <module name="demo (8) (com.akrem)" />
         <module name="Spring-09-Spring-Thymeleaf" />
-        <module name="demo (3)" />
         <module name="Spring-19-REST-Security-Keycloak-OrganizationsApp" />
+        <module name="demo (3)" />
         <module name="Spring-19-REST-Security-Keycloak-LicenseApp" />
         <module name="demo (1) (akrem)" />
         <module name="Spring-10-ORM-TableCreation" />
       </profile>
-      <profile name="Annotation profile for spring-study" enabled="true">
-        <sourceOutputDir name="../Spring-08-Spring-MVC-Model/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../Spring-08-Spring-MVC-Model/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="demo (2)" />
-      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="demo (1) (com.akrem)" target="1.8" />
+      <module name="demo (11)" target="1.8" />
       <module name="demo.main" target="17" />
       <module name="demo.test" target="17" />
       <module name="employee-100-registartion-project" target="1.8" />
       <module name="employee-regisration-project" target="1.8" />
       <module name="Spring-12-ORM-Mapping-oneToOneandManyToOne" target="1.8" />
+      <module name="Spring-21-unitTesting-jUnit5" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -74,22 +75,24 @@
       <module name="Spring-14-ORM-Queries-workingcopy" options="-parameters" />
       <module name="Spring-15-REST" options="-parameters" />
       <module name="Spring-16-REST-Jackson" options="-parameters" />
+      <module name="Spring-17-REST-ConsumingApis" options="-parameters" />
       <module name="Spring-17-Rest-ConsumingAPis" options="-parameters" />
       <module name="Spring-18-REST-OpenApi3" options="-parameters" />
       <module name="Spring-19-REST-Security-Keycloak-LicenseApp" options="-parameters" />
       <module name="Spring-19-REST-Security-Keycloak-OrganizationsApp" options="-parameters" />
       <module name="Spring-20-AOP" options="-parameters" />
+      <module name="Spring-22-UnitTesting-Mockito" options="-parameters" />
       <module name="demo" options="-parameters" />
       <module name="demo (1) (akrem)" options="-parameters" />
       <module name="demo (1) (com.akrem)" options="-parameters" />
       <module name="demo (10)" options="-parameters" />
       <module name="demo (11)" options="-parameters" />
-      <module name="demo (2)" options="-parameters" />
+      <module name="demo (2)" options="" />
       <module name="demo (3)" options="-parameters" />
-      <module name="demo (4)" options="-parameters" />
-      <module name="demo (5)" options="-parameters" />
+      <module name="demo (4)" options="" />
+      <module name="demo (5)" options="" />
       <module name="demo (6) (spring-10-ORM-TableCreation)" options="-parameters" />
-      <module name="demo (7)" options="-parameters" />
+      <module name="demo (7)" options="" />
       <module name="demo (8) (com.akrem)" options="-parameters" />
       <module name="demo (9) (Spring-13Cinema-Lab)" options="-parameters" />
       <module name="employee-100-registartion-project" options="-parameters" />

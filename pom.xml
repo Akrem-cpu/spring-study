@@ -31,6 +31,8 @@
         <module>Spring-19-REST-Security-Keycloak-LicenseApp</module>
         <module>Spring-19-REST-Security-Keycloak-OrganizationsApp</module>
         <module>Spring-20-AOP</module>
+        <module>Spring-21-UnitTesting-JUnit5</module>
+        <module>Spring-22-UnitTesting-Mockito</module>
     </modules>
 
     <properties>
